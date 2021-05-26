@@ -1,0 +1,93 @@
+.register_wrapper, .login_wrapper {
+  .login_form {
+    position: relative;
+    z-index: 100;
+    .selector__control {
+      width: 300px;
+      margin: 10px 0;
+    }
+
+    .text_field {
+      margin-bottom: 10px;
+      display: block;
+      input {
+        width: 300px;
+      }
+    }
+    
+    .password_field {
+      width: 300px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .account-type-label {
+  }
+
+  .register_but {
+    margin-top: 20px;
+  }
+
+  .validationTrue {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 1em;
+    color: red;
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  .validationFalse {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 1em;
+    color: red;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 600ms, visibility 600ms;
+  }
+  
+  .valid__icon {
+    display: inline-block;
+  }
+  
+  .valid__text {
+    display: inline;
+  }
+
+  .toggleText {
+    display: inline-block;
+    position: relative;
+    top: 11px;
+    margin-top: 20px;
+    margin-left: 10px;
+    span {
+      color: #d25780;
+    }
+  }
+
+  .success {
+    position: relative;
+    top: 11px;
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 1em;
+    color: green;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 600ms, visibility 600ms;
+  }
+
+  .goto_login {
+    cursor: pointer;
+  }
+}
+
+.login_wrapper {
+  .bottomImg{
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    z-index: 1;
+  }
+}

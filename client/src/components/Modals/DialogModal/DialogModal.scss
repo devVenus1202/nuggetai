@@ -1,0 +1,17 @@
+.dialogModal {
+  .header {
+    border-bottom: 1px solid #dfe1e6;
+  }
+  .footer {
+    border-top: 1px solid #dfe1e6;
+    padding: 20px;
+    .actionButton {
+      background-color: #e1628d;
+      border-color: #e1628d;
+    }
+    .outlinedButton {
+      border-color: #e1628d;
+      color: #e1628d;
+    }
+  }
+}

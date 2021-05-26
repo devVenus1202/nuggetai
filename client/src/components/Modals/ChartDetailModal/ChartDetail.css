@@ -1,0 +1,68 @@
+.bubbleDataModal .paper {
+  position: absolute;
+  border-radius: 10px;
+  width: 460px;
+  background-color: white;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+  padding: 20px 0; }
+  .bubbleDataModal .paper .header {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    min-height: 60px;
+    padding: 0 50px; }
+    .bubbleDataModal .paper .header h2 {
+      flex-grow: 1; }
+    .bubbleDataModal .paper .header .colorIndicator {
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      margin: auto 20px auto 0px;
+      border-radius: 10px; }
+    .bubbleDataModal .paper .header .info {
+      background: transparent;
+      box-shadow: none;
+      font-size: 18px;
+      height: 33px;
+      font-size: 24px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: right;
+      color: #4a4a4a; }
+    .bubbleDataModal .paper .header .help-tooltip {
+      font-family: AvenirNext;
+      font-size: 12px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.42;
+      letter-spacing: 0.4px; }
+  .bubbleDataModal .paper .content {
+    padding: 0px 50px; }
+    .bubbleDataModal .paper .content .description {
+      padding: 15px 0px;
+      opacity: 0.75;
+      font-size: 15px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.47;
+      letter-spacing: 0.3px;
+      color: #4f4f4f; }
+      .bubbleDataModal .paper .content .description .description_title {
+        font-family: Avenir;
+        font-size: 13px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.69;
+        letter-spacing: 0.2px;
+        color: #4f4f4f;
+        padding: 5px 0px; }
+      .bubbleDataModal .paper .content .description li {
+        line-height: 2em; }
+  .bubbleDataModal .paper .footer {
+    padding: 0px 50px; }

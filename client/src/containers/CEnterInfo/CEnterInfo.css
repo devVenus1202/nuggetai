@@ -1,0 +1,96 @@
+.candidate-info-container {
+  background-color: #f6f7f9;
+  width: 100vw;
+  height: 100%; }
+  .candidate-info-container .candidate-header-container {
+    display: flex;
+    background: url("../../images/center-header.png") no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: 50% center;
+    height: 350px; }
+    .candidate-info-container .candidate-header-container .info-logo-image {
+      background: url("../../images/logo/nugget-logo.png") no-repeat center center;
+      color: white;
+      width: 150px;
+      height: 65px;
+      margin: auto;
+      background-size: 100%;
+      margin: 50px auto; }
+  .candidate-info-container .login_form {
+    width: 430px;
+    margin: -200px auto 50px;
+    border-radius: 8px;
+    box-shadow: 0 15px 30px 0 rgba(141, 151, 200, 0.15);
+    background-color: white;
+    text-align: center;
+    padding: 40px 40px;
+    z-index: 30; }
+    .candidate-info-container .login_form .login_form_header {
+      font-size: 32px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #f2568d; }
+    .candidate-info-container .login_form .login_form_description {
+      width: 100%;
+      margin-top: 20px;
+      margin-bottom: 30px;
+      font-size: 13px;
+      font-weight: normal;
+      font-style: oblique;
+      font-stretch: normal;
+      line-height: 1.54;
+      letter-spacing: 0.4px;
+      text-align: center;
+      color: #4f4f4f; }
+    .candidate-info-container .login_form .form-control-label {
+      margin: 10px 0; }
+    .candidate-info-container .login_form .text_field {
+      margin-bottom: 10px;
+      width: 100%;
+      text-align: left; }
+  .candidate-info-container .continue-btn {
+    width: 290px;
+    height: 60px;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-size: 1rem; }
+  .candidate-info-container .back-to-end-btn {
+    color: #dd628f; }
+  .candidate-info-container .validationTrue {
+    display: block;
+    height: 30px;
+    margin-left: 10px;
+    font-size: 1em;
+    color: red;
+    visibility: hidden;
+    opacity: 0; }
+    .candidate-info-container .validationTrue i,
+    .candidate-info-container .validationTrue p {
+      display: inline-block; }
+  .candidate-info-container .validationFalse {
+    display: block;
+    height: 30px;
+    margin-left: 10px;
+    font-size: 1em;
+    color: red;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 600ms, visibility 600ms; }
+    .candidate-info-container .validationFalse i,
+    .candidate-info-container .validationFalse p {
+      display: inline-block; }
+  .candidate-info-container .success {
+    position: relative;
+    top: 11px;
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 1em;
+    color: green;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 600ms, visibility 600ms; }

@@ -1,0 +1,46 @@
+.home_wrapper .login_form {
+  width: 320px;
+  margin: 0 auto;
+  padding: 0 15px; }
+  .home_wrapper .login_form .selector__form {
+    width: 300px;
+    margin: 10px 0; }
+  .home_wrapper .login_form .text_field {
+    display: block; }
+    .home_wrapper .login_form .text_field input {
+      width: 300px; }
+
+.home_wrapper .continue_but {
+  margin-top: 10px; }
+
+.home_wrapper .validationTrue {
+  position: relative;
+  top: 7px;
+  margin-left: 10px;
+  display: inline-block;
+  font-size: 1em;
+  color: red;
+  visibility: hidden;
+  opacity: 0; }
+
+.home_wrapper .validationFalse {
+  position: relative;
+  top: 7px;
+  margin-left: 10px;
+  display: inline-block;
+  font-size: 1em;
+  color: red;
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 600ms, visibility 600ms; }
+
+.home_wrapper .valid__icon {
+  display: inline-block; }
+
+.home_wrapper .valid__text {
+  display: inline; }
+
+.home_wrapper .toggleText {
+  margin-top: 20px; }
+  .home_wrapper .toggleText span {
+    color: #d25780; }

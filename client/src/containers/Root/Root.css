@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+:focus {
+  outline: 0 !important; }
+
+.wrapper {
+  background: #f6f7f9; }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f6f7f9;
+  padding: 5px 0; }
+
+.AppLoader {
+  text-align: center; }
+
+body {
+  background-color: #FFF !important;
+  font-family: 'Roboto', sans-serif !important;
+  margin: 0; }
+  body .wrapper {
+    background-color: #f6f7f9; }
+
+.svg-loader {
+  margin-top: 45%;
+  margin-left: 45%;
+  color: '#E1628C'; }
+
+.nav a {
+  border-bottom: none; }
+
+.navbar-brand {
+  position: relative;
+  padding-left: 50px;
+  border-bottom: none; }
+  .navbar-brand span {
+    color: #fff; }
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #33e0ff;
+  background-color: transparent; }
+
+@media screen and (min-width: 768px) {
+  .root__container {
+    width: 750px; } }
+
+@media screen and (min-width: 992px) {
+  .root__container {
+    width: 970px; } }
+
+@media screen and (min-width: 1200px) {
+  .root__container {
+    width: 1170px; } }
+
+.root__container {
+  margin: 0 auto;
+  padding: 0 15px; }
+
+.test_container {
+  width: 100%; }
+
+.container {
+  padding-top: 10px; }

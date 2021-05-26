@@ -1,0 +1,56 @@
+const dummyNames = [
+  "Margarito Mcelrath",  
+  "Clelia Whittle",  
+  "Haywood Swopes",  
+  "Suzy Iwamoto",  
+  "Jennie Toal",  
+  "Rochell Scheffel",  
+  "Phuong Kerwin",  
+  "Bernard Mariner",  
+  "Andree Meuser",  
+  "Barry Brandenburg",  
+  "Spring Pinon",  
+  "Delpha Burbank",  
+  "Jung Aliff",  
+  "Kendal Liberatore",  
+  "Corinne Pollack",  
+  "Stewart Stebbins", 
+  "Kirstin Millen",  
+  "Mayme Rondeau",
+  "Becky Grass",  
+  "Stacy Magwood",
+  "Jaquelyn Bustamante",
+  "Ouida Bruch",
+  "Millicent Boatright",
+  "Corrie Fortino",
+  "Ester Giel",
+  "Alverta Yousef",
+  "Jolanda Oshields",
+  "Abdul Tuller",
+  "Eliza Bricker",
+  "Cleta Sasser",
+  "Lemuel Briere",
+  "Vernell Knipp",
+  "Kellye Whelpley",
+  "Adriana Thomason",
+  "Maximina Gately",
+  "Nona Coach",
+  "Bobbye Fredr", 
+  "Tobie Alberto",
+  "Giuseppe Devane",
+  "Raven Bob",
+  "Evelynn Kea",
+  "Avis Kasprzak",
+  "Roosevelt Faires",
+  "Jimmy Prentice ",
+  "Dwana Rousey ",
+  "Joette Bilodea",
+];
+
+export const getRandomInt = (max) => {
+  return Math.floor(Math.random() * Math.floor(max));
+};
+
+export const getRandomName = () => {
+  return dummyNames[getRandomInt(20)];
+};

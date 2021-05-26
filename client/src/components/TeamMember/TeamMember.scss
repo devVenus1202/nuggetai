@@ -1,0 +1,50 @@
+.TeamMemberWrapper {
+  display: inline-block;
+  position: relative;
+}
+
+$thumbnailSize: 35px;
+$iconSize: 27px;
+$fontSize: 18px;
+$margin: 3px;
+.thumbnailStyle {
+  display: inline-block;
+  margin-right: 3px;
+  .profile__img {
+    height: $thumbnailSize;
+    width: $thumbnailSize;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.iconStyle {
+  position: relative;
+  top: -3px;
+  display: inline-block;
+  &>div {
+    height: $iconSize;
+    width: $iconSize;
+    border: 1px dashed gray;
+    color: grey;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: $fontSize;
+    margin-left: $margin;
+    margin-right: $margin;
+    transition: color 0.5s linear;
+    
+    svg {
+      position: relative;
+      left: 1px;
+      top: 1px;
+    }
+  }
+  &>div:hover {
+    border-style: solid;
+    color: black;
+    border-color: black;
+    cursor: pointer;
+  }
+}

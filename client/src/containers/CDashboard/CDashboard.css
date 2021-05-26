@@ -1,0 +1,32 @@
+.dashboard {
+  margin-top: 10px; }
+  .dashboard .createnew__but {
+    margin-top: 35px; }
+  .dashboard .search__bar {
+    display: block;
+    margin: 40px 0 10px 0; }
+    .dashboard .search__bar > div {
+      width: 260px; }
+  .dashboard .card_container {
+    margin-top: 35px; }
+
+.thumbnail > img, .thumbnail a > img {
+  display: block;
+  max-width: 100%;
+  height: 150px !important;
+  margin-left: auto;
+  margin-right: auto; }
+
+img {
+  margin: 0; }
+
+.modal-1-image {
+  width: 80%;
+  text-align: center; }
+
+.ImgCard {
+  position: relative; }
+
+.ImgCard:hover {
+  position: relative;
+  cursor: pointer; }

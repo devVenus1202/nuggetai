@@ -1,0 +1,48 @@
+.timer {
+  text-align: right;
+  color: #555555;
+  display: inline-block;
+  margin-top: 0.6em !important;
+  span {
+    margin-left: 5px;
+    font-size: 30px;
+    top: 16px;
+  }
+  span.prefix-text {
+    position: relative;
+    top: -4px;
+    margin-right: 5px;
+    font-size: 18px;
+  }
+  p {
+    position: relative;
+    font-size: 16px;
+    top: 0px;
+    padding-right: 10px;
+    margin: 0.5em;
+  }
+  &.notice {
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 6s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 6s;
+  }
+}
+
+@keyframes example {
+  0% {
+    color: #fff;
+    background-color: #e1628d;
+    border-radius: 5px;
+    // border-bottom: 5px solid #ff8231;
+  }
+  90% {
+    color: #fff;
+    background-color: #e1628d;
+    border-radius: 5px;
+    // border-bottom: 5px solid #ff8231;
+  }
+  100% {
+    background-color: transparent;
+  }
+}

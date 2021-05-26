@@ -1,0 +1,440 @@
+$height: calc(100vh - 132px);
+$panel-bg: #f6f7f9;
+$header-font-size: 2vw;
+$section-font-size: 16px;
+$accordion-header-fsize: 1.6vw;
+$accordion-body-fsize: 1vw;
+
+.overview-section {
+  padding: 30px 20px 0px 20px;
+  margin-top: 70px;
+  background: $panel-bg;
+  .first-card {
+    background-color: #dadbf5;
+  }
+  .card-header {
+    font-size: $accordion-header-fsize;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    color: #291e53;
+    margin: 0;
+  }
+  .blink-style {
+    background-color: #fff !important;
+  }
+  .card-body {
+    font-size: $accordion-body-fsize;
+    font-family: sans-serif;
+    line-height: 1.36;
+    letter-spacing: 1.1px;
+    color: #4f4f4f;
+    overflow-x: auto;
+    .m-1 {
+      margin-top: 2px;
+      margin-bottom: 2px;
+    }
+    .rc {
+      color: red;
+    }
+    .hl {
+      color: #002377;
+      font-weight: bold;
+    }
+    .gc {
+      color: #00b4eb;
+      font-weight: bold;
+    }
+  }
+}
+
+.main__panel {
+  padding: 30px 20px;
+  border-bottom: 1px solid rgb(207, 207, 207);
+  background: $panel-bg;
+}
+
+.cardbody {
+  width: 100%;
+  padding: 10px;
+  margin: 1px;
+  background: #ffdc00;
+}
+
+.cardContainer {
+  width: calc(100% - 26px);
+  height: $height;
+  float: left;
+  overflow-y: auto;
+  overflow-x: overlay;
+  padding-right: 10px;
+  box-sizing: border-box;
+  padding-left: 2px;
+  .card-container {
+    margin: 10px 0;
+    &:first-child {
+      margin-top: 0px;
+    }
+  }
+  .card-header {
+    font-size: $accordion-header-fsize;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    color: #291e53;
+    margin: 0;
+  }
+  .card-body {
+    font-size: $accordion-body-fsize;
+    font-family: sans-serif;
+    line-height: 1.36;
+    letter-spacing: 1.1px;
+    color: #4f4f4f;
+    overflow-x: auto;
+    .m-1 {
+      margin-top: 2px;
+      margin-bottom: 2px;
+    }
+    .rc {
+      color: red;
+    }
+    .hl {
+      color: #002377;
+      font-weight: bold;
+    }
+    .gc {
+      color: #00b4eb;
+      font-weight: bold;
+    }
+
+    .table-img {
+      img {
+        max-width: 700px;
+      }
+    }
+  }
+}
+
+.card-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #291e53;
+  th,
+  td {
+    border: 1px solid #291e53;
+  }
+}
+
+.paneSwitcher {
+  width: 20px;
+  height: $height;
+  border-right: 3px solid rgb(235, 235, 235);
+  float: left;
+  .paneSwitch {
+    height: 50px;
+    width: 10px;
+    position: relative;
+    left: 13px;
+    top: 340px;
+    border-right: 3px solid rgb(134, 134, 134);
+    border-left: 3px solid rgb(134, 134, 134);
+    background: $panel-bg;
+    cursor: pointer;
+  }
+}
+
+.cardbody {
+  background: white;
+}
+
+.testDesc {
+  font-size: 16px;
+  padding: 5px;
+  margin-bottom: 10px;
+  color: #c0cdd8;
+}
+
+.addNew {
+  width: 78px;
+  margin: auto;
+  margin-top: 15px;
+  font-family: roboto;
+  text-align: center;
+  cursor: pointer;
+  &:hover {
+    color: #dd628f;
+  }
+  i {
+    font-size: 1.5em;
+  }
+  p {
+    font-size: 13px;
+  }
+}
+
+input.newCardTitle {
+  border: none;
+  width: calc(100% - 48px);
+  font-family: roboto;
+  font-size: $header-font-size;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  color: #4d4470;
+}
+
+.newCard {
+  margin: auto;
+  margin-bottom: 10px;
+  font-family: roboto;
+  background: transparent;
+  textarea {
+    width: calc(100% - 48px);
+    border: none;
+    height: 7em !important;
+    padding: 0px 24px 15px 24px;
+    resize: none;
+    font-family: roboto;
+    font-size: $section-font-size;
+  }
+}
+
+.draftEditor {
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.editContainer {
+  height: $height;
+  overflow-y: auto;
+  padding-left: 20px;
+  .section-container {
+    margin: 10px 0;
+    .section-header {
+      font-size: $header-font-size;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: 0.6px;
+      color: #4d4470;
+    }
+    .draftEditor {
+      font-size: $section-font-size;
+    }
+    .expansion-panel-details {
+      position: relative;
+    }
+    .section-word-counter {
+      position: absolute;
+      right: 30px;
+      bottom: 25px;
+      font-size: $section-font-size;
+      color: #ebebeb;
+    }
+  }
+}
+
+.headerContainer {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 999;
+  height: 70px;
+  width: 100%;
+  background-color: #fcfcfc;
+  box-shadow: 0 1.2px 3px 0 rgba(198, 198, 198, 0.5);
+  .header-right-section {
+    flex-grow: 1;
+    width: 150px;
+  }
+  .logo__img {
+    position: absolute;
+    $size: 65px;
+    top: 8px;
+    left: 15px;
+    display: inline-block;
+    background: url('../../images/logo/nugget-logo.png') no-repeat center center;
+    width: 150px;
+    height: 65px;
+    background-size: 100%;
+    margin: 0 10px 0 0;
+    border-radius: $size / 2;
+  }
+  .header-right-items {
+    float: right;
+    .submit__button {
+      margin-left: 15px;
+      margin-top: 15px;
+      margin-right: 20px;
+      float: right;
+      font-size: 18px;
+      font-weight: bolder;
+      letter-spacing: 0.5px;
+      border-radius: 24px;
+      padding-left: 30px;
+      padding-right: 30px;
+      color: #dd628f;
+    }
+    .submit__button_skip {
+      margin-left: 15px;
+      margin-top: 15px;
+      margin-right: 20px;
+      float: right;
+      font-size: 18px;
+      font-weight: bolder;
+      letter-spacing: 0.5px;
+      border-radius: 6px;
+      padding-left: 30px;
+      padding-right: 30px;
+      color: #dd628f;
+    }
+    .timer {
+      float: right;
+      margin-top: 5px;
+    }
+
+    .preview-timer {
+      float: right;
+      p {
+        border-radius: 6px;
+        padding: 3px 10px 3px 8px;
+        top: -5px;
+        background-color: #dd628f;
+        color: white;
+      }
+    }
+  }
+}
+
+.faq-header {
+  height: 100%;
+  width: 100%;
+  background-color: #fcfcfc;
+  box-shadow: 0 1.2px 3px 0 rgba(198, 198, 198, 0.5);
+  position: relative;
+  text-align: center;
+  .faq-text {
+    font-size: $accordion-header-fsize;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    color: #291e53;
+  }
+}
+
+.faq-card-container {
+  height: calc(100vh - 420px);
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  overflow: auto;
+  .faq-card-header {
+    font-size: $accordion-header-fsize;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    color: #291e53;
+  }
+  .faq-card-body {
+    font-size: $accordion-body-fsize;
+    line-height: 1.36;
+    letter-spacing: 1.1px;
+    color: #4f4f4f;
+  }
+}
+
+.faq-button-container {
+  .faq-tab-container {
+    width: 400px;
+    margin: auto;
+    .faq-tab-item {
+      font-size: 18px;
+      font-family: roboto;
+    }
+  }
+}
+
+.back_but {
+  position: fixed !important;
+  left: 50px;
+  bottom: 20px;
+  border-radius: 25px !important;
+}
+
+.editToolbar {
+  margin-top: 13px;
+}
+
+.sectionContainer {
+  height: $height;
+  overflow: auto;
+  border-left: 3px solid rgb(235, 235, 235);
+  background-color: rgb(235, 235, 235);
+}
+
+.sectionList {
+  width: 100%;
+}
+
+.utilButtons {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+.newCardTitle,
+.newCardContent {
+  background-color: white;
+  font-family: roboto;
+}
+
+.help_but {
+  position: fixed !important;
+  left: 50px;
+  bottom: 20px;
+  border-radius: 25px !important;
+}
+
+.section-expand-more-icon {
+  position: absolute;
+  right: 8px;
+  padding: 0 !important;
+  background: #fff !important;
+}
+
+.section-delete-icon {
+  margin-left: 10px;
+  display: none !important;
+}
+
+.section-delete-icon-show {
+  display: block !important;
+}
+
+.tourHeader {
+  display: flex;
+  align-items: center;
+  flex: 1 0;
+  .tourHeader-step {
+    color: #8d8a98;
+    flex: 1;
+  }
+  .tourHeader-skip {
+    color: #8d8a98;
+  }
+}
+
+.badge-style {
+  span {
+    width: 13px;
+    height: 13px;
+  }
+}
+
+.helper {
+  border-radius: 15px;
+}
+div[data-tour-elem='controls'] {
+  margin-left: 150px !important;
+}

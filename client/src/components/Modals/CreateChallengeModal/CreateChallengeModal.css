@@ -1,0 +1,69 @@
+.create-challenge-modal {
+  padding: 15px;
+  height: 100%; }
+  .create-challenge-modal .paper-main {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 874px;
+    border-radius: 8px;
+    box-shadow: 0 15px 30px 0 rgba(141, 151, 200, 0.15);
+    background-color: #fff;
+    padding: 40px;
+    height: auto; }
+    .create-challenge-modal .paper-main.step2 {
+      max-width: 464px; }
+      .create-challenge-modal .paper-main.step2 .create-challenge-actions .confirm-btn {
+        width: 100%; }
+      .create-challenge-modal .paper-main.step2 label {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1.43;
+        color: #4a4a4a;
+        margin-top: 32px;
+        margin-bottom: 12px; }
+    .create-challenge-modal .paper-main .create-challenge-header {
+      position: relative; }
+      .create-challenge-modal .paper-main .create-challenge-header h5 {
+        font-size: 28px;
+        height: 38px;
+        margin-bottom: 36px;
+        color: #4a4a4a;
+        padding: 0 12px; }
+      .create-challenge-modal .paper-main .create-challenge-header .close-btn {
+        position: absolute;
+        top: -10px;
+        right: -10px; }
+    .create-challenge-modal .paper-main .challenges-container {
+      width: 100%;
+      max-height: 510px;
+      overflow: hidden;
+      overflow-y: auto;
+      margin: 0;
+      overflow: -moz-scrollbars-none;
+      -ms-overflow-style: none; }
+      .create-challenge-modal .paper-main .challenges-container::-webkit-scrollbar {
+        width: 0 !important; }
+    @media only screen and (max-width: 1024px) {
+      .create-challenge-modal .paper-main {
+        width: inherit;
+        max-width: 80%; } }
+    @media only screen and (max-width: 900px) {
+      .create-challenge-modal .paper-main {
+        width: inherit;
+        max-width: 100%; } }
+    @media only screen and (max-width: 600px) {
+      .create-challenge-modal .paper-main {
+        width: inherit;
+        font-size: 12px;
+        margin-top: 25px;
+        max-width: 100%;
+        padding: 20px; } }
+  .create-challenge-modal .create-challenge-actions {
+    margin-top: 25px;
+    padding: 0 12px; }
+    .create-challenge-modal .create-challenge-actions .confirm-btn {
+      width: 182px;
+      height: 48px;
+      border-radius: 6px;
+      background-color: #8c92f7;
+      color: #fff; }

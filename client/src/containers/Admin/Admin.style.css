@@ -1,0 +1,17 @@
+.admin-page-wrapper .user__selector-form {
+  margin: 20px 0;
+  display: block; }
+  .admin-page-wrapper .user__selector-form .user-selector {
+    width: 500px; }
+
+.admin-page-wrapper .challenge__selector-form {
+  margin: 20px 0;
+  display: block; }
+  .admin-page-wrapper .challenge__selector-form .challenge-selector {
+    width: 500px; }
+
+.admin-page-wrapper .pipeline__selector-form {
+  margin: 20px 0;
+  display: block; }
+  .admin-page-wrapper .pipeline__selector-form .pipeline-selector {
+    width: 500px; }

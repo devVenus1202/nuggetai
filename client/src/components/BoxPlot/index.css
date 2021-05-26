@@ -1,0 +1,17 @@
+.boxes .box {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.boxes .lastBox {
+  padding-bottom: 30px; }
+
+.boxes rect {
+  fill: lightgray !important;
+  stroke: lightgray !important; }
+
+.boxes line {
+  stroke: lightgray !important; }
+
+.boxes ellipse {
+  fill: lightgray !important;
+  stroke: lightgray !important; }

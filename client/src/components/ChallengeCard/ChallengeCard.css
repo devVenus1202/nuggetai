@@ -1,0 +1,158 @@
+.challenge-card__wrapper {
+  box-shadow: none;
+  position: relative;
+  border-radius: 10px !important;
+  height: 275px; }
+  .challenge-card__wrapper:hover .card__action_media, .challenge-card__wrapper.selected .card__action_media {
+    cursor: pointer; }
+    .challenge-card__wrapper:hover .card__action_media .image__cover, .challenge-card__wrapper.selected .card__action_media .image__cover {
+      transform: scale(1.2); }
+    .challenge-card__wrapper:hover .card__action_media .image__overlay, .challenge-card__wrapper.selected .card__action_media .image__overlay {
+      background-image: linear-gradient(117deg, rgba(103, 76, 145, 0.8), #3e619b) !important;
+      opacity: 0.8;
+      cursor: pointer; }
+  .challenge-card__wrapper:hover .card__content .chip_sponsor, .challenge-card__wrapper.selected .card__content .chip_sponsor {
+    opacity: 1; }
+  .challenge-card__wrapper:hover .card__sub__title, .challenge-card__wrapper.selected .card__sub__title {
+    opacity: 1; }
+  .challenge-card__wrapper:hover .chip_wrapper, .challenge-card__wrapper.selected .chip_wrapper {
+    opacity: 1; }
+  .challenge-card__wrapper .card__action_media {
+    position: relative;
+    overflow: hidden;
+    flex: 1 0 auto;
+    display: flex;
+    z-index: 1;
+    height: 100%; }
+    .challenge-card__wrapper .card__action_media .image__cover {
+      background-color: black;
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      z-index: -1;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transition: all 0.5s ease; }
+    .challenge-card__wrapper .card__action_media .image__overlay {
+      background-color: #253858;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      opacity: 0.4; }
+  .challenge-card__wrapper.minimalist {
+    height: 216px; }
+    .challenge-card__wrapper.minimalist .card__content {
+      padding: 34px 32px 34px 32px; }
+    .challenge-card__wrapper.minimalist .card__title {
+      font-size: 20px;
+      margin-bottom: 8px; }
+    .challenge-card__wrapper.minimalist .card__sub__title {
+      font-size: 13px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      height: 45px;
+      white-space: pre-wrap; }
+    .challenge-card__wrapper.minimalist .chip_wrapper .chip_style {
+      margin-bottom: 5px; }
+  .challenge-card__wrapper .card__content {
+    padding: 44px 48px 44px 48px;
+    flex: 1 0 0px;
+    position: relative; }
+    .challenge-card__wrapper .card__content .chip_sponsor {
+      padding: 5px;
+      height: 30px;
+      background-color: #938EF4;
+      color: #fff;
+      border-radius: 30px;
+      transition: all 0.5s ease;
+      position: absolute;
+      right: 30px;
+      top: 30px;
+      opacity: 0; }
+      .challenge-card__wrapper .card__content .chip_sponsor .chip_in {
+        color: #fff;
+        background-color: #938EF4;
+        height: 15px; }
+      .challenge-card__wrapper .card__content .chip_sponsor .chip_in_selected {
+        height: 22px;
+        color: #fff;
+        background-color: #4D47DF; }
+  .challenge-card__wrapper .card__title {
+    width: 273px;
+    font-size: 28px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    color: #ffffff;
+    font-weight: 400;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+    position: relative; }
+  .challenge-card__wrapper .card__sub__title {
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    display: block;
+    margin-bottom: 45px;
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    opacity: 0;
+    transition: all 0.5s ease; }
+  .challenge-card__wrapper .chip_wrapper {
+    opacity: 0;
+    transition: all 0.5s ease;
+    position: absolute;
+    bottom: 10px; }
+    .challenge-card__wrapper .chip_wrapper .chip_style {
+      text-transform: uppercase;
+      height: 24px;
+      font-size: 11px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: 0.8px;
+      margin-right: 8px;
+      background-color: #E1628D;
+      color: #fff;
+      margin-bottom: 10px; }
+  @media only screen and (max-width: 768px) {
+    .challenge-card__wrapper .card__content {
+      padding: 15px; }
+    .challenge-card__wrapper .card__title {
+      font-size: 26px;
+      margin-bottom: 15px; }
+    .challenge-card__wrapper .card__sub__title {
+      font-size: 16px;
+      margin-bottom: 25px; } }
+  @media only screen and (max-width: 599px) {
+    .challenge-card__wrapper .card__content .chip_sponsor {
+      padding: 5px 0 5px 0px;
+      height: 35px;
+      top: 15px;
+      right: 10px; }
+      .challenge-card__wrapper .card__content .chip_sponsor .chip_in {
+        color: #fff;
+        background-color: #938EF4;
+        height: 15px; }
+      .challenge-card__wrapper .card__content .chip_sponsor .chip_in_selected {
+        height: 25px;
+        color: #fff;
+        background-color: #4D47DF; } }

@@ -1,0 +1,88 @@
+.toolbarRoot {
+  padding-right: 8px;
+  border-bottom: 1px solid rgba(224, 224, 224, 1);
+  .toolbar_title {
+    flex: 0 0 auto;
+    .search_input {
+      margin: 12px 0px !important;
+    }
+  }
+
+  .toolbar_actions {
+    color: pink;
+  }
+
+  .toolbar_spacer {
+    flex: 1 1 100%;
+  }
+
+  .member_count {
+    position: relative;
+    top: -5px;
+    left: 10px;
+    font-weight: bold;
+  }
+
+  .member_toolbar {
+    margin-top: 10px;
+  }
+}
+.rank_25:hover {
+  background-color: #c8e6c9 !important;
+}
+.rank_75:hover {
+  background-color: #fff9c4 !important;
+}
+.rank_100:hover {
+  background-color: #ffcdd2 !important;
+}
+
+.rank_no:hover {
+  background-color: #cbe5cd !important;
+}
+.highlight_true {
+  color: rgba(0, 0, 0, 0.54);
+  background-color: #b7dcff;
+}
+
+.highlight_false {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.tableRoot {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  .tableWrapper {
+    overflow-x: auto;
+  }
+}
+
+.icons {
+  font-size: 1.3em;
+  margin: 5px;
+  cursor: pointer;
+  &.thumbup,
+  &.thumbdown {
+    color: #5370d1;
+  }
+  &.fa-fire {
+    color: #d0021b;
+  }
+}
+.hidden {
+  opacity: 0;
+}
+.user-row:hover {
+  .hidden {
+    opacity: 1;
+    color: #c8c8c8;
+    &.thumbup:hover,
+    &.thumbdown:hover {
+      color: #5370d1;
+    }
+    &.fa-fire:hover {
+      color: #d0021b;
+    }
+  }
+}

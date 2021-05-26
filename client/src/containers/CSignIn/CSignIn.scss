@@ -1,0 +1,543 @@
+$primary: #dd628f;
+$secondary: #858bf6;
+$text: #3b4962;
+
+// $particles: 50;
+// $width: 500;
+// $height: 500;
+
+// // Create the explosion...
+// $box-shadow: ();
+// $box-shadow2: ();
+// $background: ();
+// @for $i from 0 through $particles {
+//   $box-shadow: $box-shadow,
+//     random($width)-$width /
+//       2 +
+//       px
+//       random($height)-$height /
+//       1.2 +
+//       px
+//       hsl(random(360), 100, 50);
+//   $box-shadow2: $box-shadow2, 0 0 #fff;
+// }
+// @mixin keyframes($animationName) {
+//   @-webkit-keyframes #{$animationName} {
+//     @content;
+//   }
+
+//   @-moz-keyframes #{$animationName} {
+//     @content;
+//   }
+
+//   @-o-keyframes #{$animationName} {
+//     @content;
+//   }
+
+//   @-ms-keyframes #{$animationName} {
+//     @content;
+//   }
+
+//   @keyframes #{$animationName} {
+//     @content;
+//   }
+// }
+
+// @mixin animation-delay($settings) {
+//   -moz-animation-delay: $settings;
+//   -webkit-animation-delay: $settings;
+//   -o-animation-delay: $settings;
+//   -ms-animation-delay: $settings;
+//   animation-delay: $settings;
+// }
+
+// @mixin animation-duration($settings) {
+//   -moz-animation-duration: $settings;
+//   -webkit-animation-duration: $settings;
+//   -o-animation-duration: $settings;
+//   -ms-animation-duration: $settings;
+//   animation-duration: $settings;
+// }
+
+// @mixin animation($settings) {
+//   -moz-animation: $settings;
+//   -webkit-animation: $settings;
+//   -o-animation: $settings;
+//   -ms-animation: $settings;
+//   animation: $settings;
+// }
+
+// @mixin transform($settings) {
+//   transform: $settings;
+//   -moz-transform: $settings;
+//   -webkit-transform: $settings;
+//   -o-transform: $settings;
+//   -ms-transform: $settings;
+// }
+
+// .pyro > .before,
+// .pyro > .after {
+//   position: absolute;
+//   width: 10px;
+//   height: 10px;
+//   border-radius: 50%;
+//   // background: url('../../images/fireworks/1.png');
+//   @include animation(
+//     (
+//       1s bang ease-out infinite backwards,
+//       1s gravity ease-in infinite backwards,
+//       5s position linear infinite backwards
+//     )
+//   );
+// }
+// .fireworks-background {
+//   height: 100vh;
+//   position: absolute;
+//   width: 100vw;
+//   overflow: hidden;
+// }
+// .pyro > .after {
+//   @include animation-delay((1.25s, 1.25s, 1.25s));
+//   @include animation-duration((1.25s, 1.25s, 6.25s));
+// }
+
+// @include keyframes(bang) {
+//   to {
+//     box-shadow: $box-shadow;
+//     // background: $background;
+//   }
+// }
+
+// @include keyframes(gravity) {
+//   to {
+//     @include transform(translateY(200px));
+//     opacity: 0;
+//   }
+// }
+
+// @include keyframes(position) {
+//   0%,
+//   19.9% {
+//     margin-top: 5%;
+//     margin-left: 40%;
+//   }
+//   20%,
+//   39.9% {
+//     margin-top: 35%;
+//     margin-left: 30%;
+//   }
+//   40%,
+//   59.9% {
+//     margin-top: 15%;
+//     margin-left: 70%;
+//   }
+//   60%,
+//   79.9% {
+//     margin-top: 25%;
+//     margin-left: 20%;
+//   }
+//   80%,
+//   99.9% {
+//     margin-top: 10%;
+//     margin-left: 80%;
+//   }
+// }
+
+.candidate-signin-container {
+  background-color: #f6f7f9;
+  width: 100vw;
+  height: 100vh;
+}
+
+.signin-login_wrapper {
+  background-color: #f6f7f9;
+  .signin-login_form {
+    margin-top: 0px;
+    text-align: center;
+    .header-image {
+      width: 30%;
+    }
+    h1 {
+      color: $primary;
+      font-size: 50px;
+    }
+    .selector__control {
+      width: 300px;
+      margin: 10px 0;
+    }
+
+    .text_field {
+      margin-bottom: 10px;
+      display: block;
+      input {
+        width: 300px;
+      }
+    }
+
+    .password_field {
+      width: 300px;
+    }
+  }
+
+  .continue-btn {
+    width: 290px;
+    height: 60px;
+    border-radius: 30px;
+    margin-top: 20px;
+
+    font-size: 1rem;
+  }
+
+  .signin-intro-text {
+    max-width: 70%;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    width: max-content;
+
+    p {
+      font-size: 18px;
+      font-family: sans-serif;
+      letter-spacing: 0.8px;
+      text-align: left;
+      color: #575757;
+      a {
+        color: blue;
+        text-decoration: underline !important;
+      }
+    }
+
+    .description {
+      color: #4a4a4a;
+      margin: 10px;
+      line-height: 30px;
+      z-index: 999;
+    }
+  }
+
+  .toggleText {
+    display: inline-block;
+    position: relative;
+    top: 11px;
+    margin-top: 20px;
+    margin-left: 10px;
+    span {
+      color: #d25780;
+    }
+  }
+
+  .success {
+    position: relative;
+    top: 11px;
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 1em;
+    color: green;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 600ms, visibility 600ms;
+  }
+}
+
+.bottomImg {
+  position: absolute;
+  left: 0px;
+  top: 55vh;
+  z-index: -999;
+  width: 100vw;
+  z-index: 1;
+}
+
+.candidate-header-container {
+  z-index: -1;
+  height: 70px;
+  .logo-image {
+    position: absolute;
+    top: 18px;
+    left: 30px;
+    display: inline-block;
+    background: url('../../images/logo/nugget-logo.png') no-repeat center center;
+    width: 150px;
+    height: 65px;
+    background-size: 100%;
+    margin: 0 10px 0 0;
+    @media only screen and (max-width: 800px) {
+      width: 150px;
+      top: 10px;
+    }
+  }
+  .feedback-wrapper {
+    position: absolute;
+    z-index: 1;
+  }
+}
+
+.static-icons {
+  position: fixed;
+  top: 55vh;
+  left: 20px;
+  ul {
+    padding: 0;
+    list-style: none;
+    list-style-image: none;
+    li {
+      margin: 30px 0px;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        transform: translateY(-4px);
+        text-decoration: none;
+      }
+      a {
+        color: $primary;
+        font-size: 1.3em;
+      }
+    }
+  }
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  ul {
+    padding: 0;
+    list-style: none;
+    list-style-image: none;
+    display: flex;
+    li {
+      margin: 0px 10px;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        transform: translateY(-4px);
+        text-decoration: none;
+      }
+      a {
+        color: $primary;
+        font-size: 1.3em;
+      }
+    }
+  }
+}
+
+.analytics-result-wrapper {
+  margin: 25px 0;
+  .analytics-keywords {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-flow: wrap;
+    padding-left: 65px;
+    padding-right: 73px;
+    .keyword-chip {
+      margin: 5px 10px;
+      color: #858bf6;
+      border-width: 1px;
+      border-color: #858bf6;
+      font-size: 14px;
+      font-family: sans-serif;
+      letter-spacing: 1.1px;
+      background-color: #fff;
+
+      span {
+        padding: 0 16px;
+      }
+    }
+  }
+}
+
+.survey-form-wrapper {
+  width: 80%;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+  .form-number {
+    display: inline-block;
+    width: 50px;
+    height: 100%;
+    span {
+      width: 30px;
+      height: 30px;
+      padding: 6px 11px;
+      margin: 0;
+      border-radius: 50%;
+      border: 1px solid #858bf6;
+      color: black;
+      font-weight: bold;
+      font-size: 18px;
+    }
+  }
+
+  .answer-btn {
+    width: 384px;
+    height: 48px;
+    margin: 0 10%;
+    @media only screen and (max-width: 800px) {
+      width: 100%;
+      margin-left: 0%;
+    }
+    .btn-title {
+      text-transform: none;
+    }
+  }
+
+  .answer-btn-sandbox {
+    width: 384px;
+    height: 48px;
+    margin: 0 10%;
+    margin-top: 18px;
+    color: white;
+    background: #e1628d;
+    @media only screen and (max-width: 800px) {
+      width: 100%;
+      margin-left: 0%;
+    }
+    .btn-title {
+      text-transform: none;
+    }
+    &:hover {
+      background: darken(#e1628d, 20%);
+    }
+  }
+
+  .analytics-values {
+    margin: 50px 0;
+  }
+  .advice-form {
+    display: none;
+
+    .advice-textarea {
+      width: 100%;
+      & > div {
+        padding: 8px 6px;
+      }
+
+      .advice-left-length {
+        align-items: end;
+        padding-top: 45px;
+      }
+    }
+
+    .advice-save-btn {
+      width: 140px;
+      border-radius: 30px;
+      border-color: $primary;
+    }
+  }
+}
+
+.success-saved-snackbar {
+  & > div {
+    background-color: #6ad03f;
+  }
+  .checkcircle-icon {
+    float: left;
+    margin-right: 4px;
+    font-size: 20px;
+    opacity: 0.9;
+  }
+  .message-content {
+    float: left;
+  }
+}
+
+.feedback_form {
+  @media only screen and (max-width: 768px) {
+    width: calc(100% - 120px);
+  }
+  width: 650px;
+  margin: 10% auto 50px;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: 0 15px 30px 0 rgba(141, 151, 200, 0.15);
+  background-color: white;
+  text-align: center;
+  padding: 40px 40px;
+  z-index: 999999 !important;
+  text-align: left;
+  display: block;
+  .header-image {
+    width: 65%;
+    margin-top: -140px;
+    margin: -140px 17.5% 0px 17.5%;
+  }
+  .feedback_form_header {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 3.75;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #f2568d;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .feedback_form_description {
+    margin: 0 10%;
+    width: 80%;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a4a4a;
+  }
+  .feedback_form_note {
+    margin-top: 20px;
+    font-size: 10px;
+    color: #4f4f4f;
+  }
+  .form-control-label {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .text_field {
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: left;
+  }
+  .feedback_area {
+    border-color: rgba(199, 134, 134, 0.23);
+    height: 100px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-size: 16px;
+  }
+}
+.topleft-image {
+  z-index: -1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: url('../../images/Assessment/topleft.png') no-repeat center center;
+  width: 300px;
+  height: 410px;
+  background-size: 100%;
+  z-index: 0;
+  @media only screen and (max-width: 800px) {
+    display: none;
+  }
+}
+.bottomright-image {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  background: url('../../images/Assessment/bottomright.png') no-repeat center
+    center;
+  width: 300px;
+  height: 280px;
+  background-size: 100%;
+  @media only screen and (max-width: 800px) {
+    display: none;
+  }
+}
+.value_field {
+  width: 570px;
+  height: 81px;
+  background-color: #f6f7f9;
+}

@@ -1,0 +1,153 @@
+.settings-main {
+  margin-top: 96px;
+}
+
+.settings-main .settings-wrapper {
+  max-width: 560px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 15px 30px 0 rgba(141, 151, 200, 0.15);
+  margin-bottom: 24px;
+}
+
+.settings-main .settings-wrapper .inputs-wrapper {
+  padding: 40px;
+}
+
+.settings-main .settings-wrapper .inputs-wrapper label {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.43;
+  color: #4a4a4a;
+  margin-bottom: 12px;
+  margin-top: 20px;
+}
+
+.settings-main .settings-wrapper .inputs-wrapper .divider {
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
+.settings-main .settings-wrapper .inputs-wrapper .update-btn,
+.settings-main .settings-wrapper .inputs-wrapper .change-pass-btn,
+.settings-main .settings-wrapper .inputs-wrapper .sign-out-btn,
+.settings-main .settings-wrapper .inputs-wrapper .delete-btn {
+  margin-top: 30px;
+  width: 100%;
+  height: 48px;
+}
+
+.settings-main .settings-wrapper .inputs-wrapper .change-pass-btn {
+  margin-bottom: 20px;
+  background-color: #452a2a;
+}
+
+.settings-main .settings-wrapper .inputs-wrapper .sign-out-btn {
+  background-color: #d15a5a;
+}
+
+.settings-main .settings-wrapper .inputs-wrapper .delete-btn {
+  background-color: rgba(181, 191, 209, 0.75);
+}
+
+.settings-main .settings-wrapper .preview-wrapper {
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  vertical-align: top;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 15px 30px 0 rgba(141, 151, 200, 0.15);
+  margin-bottom: 14px;
+}
+
+.settings-main .settings-wrapper .preview-wrapper .preview {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+.settings-main .settings-wrapper .preview-wrapper .circle {
+  border-radius: 50%;
+}
+
+.settings-main .settings-wrapper .preview-wrapper .preview-mask {
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(37, 56, 88, 0.75);
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
+  transition: opacity 0.15s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.settings-main .settings-wrapper .preview-wrapper .preview-mask .icon {
+  width: 30px;
+  height: 30px;
+}
+
+.settings-main .settings-wrapper .preview-wrapper:hover .preview-mask {
+  opacity: 1;
+}
+
+.settings-main .settings-wrapper .preview-wrapper .inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.settings-main .settings-wrapper .preview-wrapper .inputfile+label {
+  font-weight: 700;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.settings-main .settings-wrapper .preview-wrapper .no-js .inputfile+label {
+  display: none;
+}
+
+.settings-main .settings-wrapper .preview-wrapper .inputfile:focus+label,
+.settings-main .settings-wrapper .preview-wrapper .inputfile.has-focus+label {
+  outline: 1px dotted #000;
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
+.settings-main .settings-wrapper .title-account {
+  height: 110px;
+  padding: 40px;
+  border-bottom: 1px solid #ededed;
+}
+
+.settings-main .settings-wrapper .title-account h3 {
+  margin: 0;
+  font-size: 28px;
+  color: #4a4a4a;
+}
+
+.settings-main .settings-wrapper .cropper-round .cropper-view-box,
+.settings-main .settings-wrapper .cropper-round .cropper-face {
+  border-radius: 50%;
+}
+
+.settings-main .settings-wrapper.btns .inputs-wrapper {
+  padding: 20px;
+  padding-top: 0px;
+}

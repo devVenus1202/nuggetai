@@ -1,0 +1,36 @@
+.sandbox {
+  margin-top: 76px; }
+  .sandbox .sandbox-wrapper {
+    margin: 0 auto; }
+  .sandbox .challenges-container {
+    padding: 56px 20px 20px 20px;
+    width: calc(100% + 24px);
+    margin: -12px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box; }
+  .sandbox .img-card {
+    padding-bottom: 30px;
+    padding: 12px; }
+  .sandbox .search__bar_container .input-search {
+    max-width: 349px;
+    width: 100%;
+    height: 40px; }
+  .sandbox .search__bar_container .challenges-availab {
+    padding-top: 18px;
+    font-size: 26px;
+    font-weight: 600;
+    color: #4a4a4a;
+    padding-left: 20px; }
+  @media only screen and (max-width: 600px) {
+    .sandbox {
+      margin-top: 10px; }
+      .sandbox .search__bar_container {
+        padding: 20px 20px 10px 20px; }
+        .sandbox .search__bar_container .challenges-availab {
+          font-weight: 600;
+          padding-left: 0px; }
+      .sandbox .challenges-container {
+        padding: 0px;
+        width: 100%;
+        margin: 0; } }

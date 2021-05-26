@@ -1,0 +1,354 @@
+.result_wrapper {
+  margin-top: 20px;
+}
+
+.paper {
+  padding: 20px;
+}
+
+.settingsIcon {
+  text-align: right;
+  float: right;
+}
+.talent-chart {
+  margin-top: 20px;
+}
+.helpIcon:hover {
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+
+.helpIcon {
+  position: relative;
+  right: 20px;
+  bottom: 8px;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.lineheight {
+  margin-top: 10px;
+}
+
+.linkWrapper {
+  width: calc(100% - 150px);
+  display: inline-block;
+}
+
+.result_slider {
+  z-index: 999;
+  position: relative;
+}
+
+.tab_container {
+  margin-left: 0;
+  .copy_link {
+    margin-top: 20px;
+    .copy__button {
+    }
+  }
+}
+
+.challenge {
+  $font_small: 11px;
+
+  .challenge_header {
+    font-weight: bold;
+    font-size: 22px;
+  }
+  .challenge_timestamp {
+    font-size: $font_small;
+    color: rgb(151, 151, 151);
+    margin: 10px 0;
+  }
+  .challenge_desc {
+    width: calc(100% - 20px);
+    height: 100px;
+    resize: none;
+    background-color: white;
+    color: rgb(151, 151, 151);
+    border-color: rgb(151, 151, 151);
+    border-radius: 3px;
+    font-size: $font_small;
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    padding: 10px;
+  }
+  .talent-title {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+  }
+}
+
+.add_pipeline_but {
+  width: 200px;
+  background-color: #444444;
+  color: rgb(255, 223, 81);
+  font-weight: bolder;
+  font-size: 16px;
+  text-transform: none;
+  float: right;
+  &:hover {
+    background-color: rgb(73, 73, 73);
+  }
+}
+
+.relationship_card {
+  margin-top: 60px;
+  padding: 0px !important;
+}
+
+.pipeline_wrapper {
+  margin-top: 20px;
+  .panel-wrapper {
+    border-radius: 8px;
+  }
+  .panel-wrapper-left {
+    border-top: 8px solid #fc8e7f;
+  }
+  .panel-wrapper-right {
+    border-top: 8px solid #552c84;
+    .input_pipeline {
+      height: 46px;
+    }
+  }
+}
+.character_wrapper {
+  padding: 10px 200px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  // margin-bottom: 30px;
+  margin-top: -25px;
+  .pageTab {
+    display: flex;
+    .backButton {
+      background: #8c92f7;
+      box-shadow: none;
+    }
+  }
+}
+hr {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #dddee0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+.pipelines-info {
+  .addIcon {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .addButton {
+    background: #8c92f7;
+    box-shadow: none;
+    margin: auto;
+    display: block;
+  }
+}
+
+.expansion-panels-wrapper {
+  max-width: 1130px;
+  margin: 0 auto;
+  margin-top: 52px;
+}
+
+.panel-wrapper {
+  border: solid 1px #dfe1e6;
+  border-radius: 6px;
+  .panel-summary {
+    padding: 25px 0;
+    margin: 0;
+    border-bottom: solid 1px #dfe1e6;
+    min-height: 50px;
+
+    .panel-summary-content {
+      flex-direction: column;
+      padding-left: 58px;
+      margin: 0;
+
+      .title {
+        font-size: 22px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        color: #112b50;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        width: 100%;
+        line-height: normal;
+      }
+
+      .sub-title {
+        margin-top: 9px;
+        font-size: 14px;
+        display: block;
+        width: 100%;
+        line-height: 1.36;
+        color: #9b9b9b;
+      }
+    }
+
+    .panel-summary-icon {
+      top: 50px;
+      left: 2px;
+      right: inherit;
+      color: #e1628d;
+      svg {
+        width: 35px;
+        height: 35px;
+      }
+    }
+  }
+  .panel-details-wrapper {
+    position: relative;
+    padding-top: 20px;
+  }
+  .rc-steps-item {
+    height: 114px;
+  }
+  .tip-content {
+    height: 120px;
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1.53;
+    letter-spacing: 0.5px;
+    color: #253858;
+  }
+}
+.waiting {
+  margin: 50px auto;
+  text-align: center;
+  img {
+    width: 750px;
+    height: 500px;
+  }
+}
+.search_input {
+  width: calc(100% - 40px);
+}
+.panel-wrapper-1 {
+  padding-top: 50px;
+}
+.pipeline-selector-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 20px 0 10px;
+}
+.sub-header {
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+}
+.challenge_title {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1em;
+  display: block;
+
+  &:before {
+    display: none;
+  }
+
+  & > div {
+    &:before {
+      border: none;
+    }
+
+    &:hover {
+      &:before {
+        border: none !important;
+      }
+    }
+  }
+  div[class*='MuiOutlinedInput-focused'] {
+    fieldset {
+      border-color: rgba(0, 0, 0, 0.23) !important;
+    }
+  }
+
+  div[class*='MuiOutlinedInput-root']:hover:not([class*='MuiOutlinedInput-disabled']):not([class*='MuiOutlinedInput-focused']):not([class*='MuiOutlinedInput-error'])
+    [class*='MuiOutlinedInput-notchedOutline'] {
+    border-color: rgba(0, 0, 0, 0);
+  }
+  .challenge_input {
+    font-size: 1.25rem;
+    width: 100%;
+    fieldset {
+      border-color: rgba(0, 0, 0, 0);
+      &:focus,
+      &:active,
+      &:focus-within {
+        border-color: rgba(0, 0, 0, 0.23) !important;
+      }
+    }
+
+    input {
+      margin-right: 10px;
+    }
+    div {
+      margin-left: 0px;
+    }
+    svg {
+      opacity: 0;
+    }
+    &:hover {
+      svg {
+        opacity: 1;
+      }
+    }
+  }
+}
+.talent-datagrid {
+  margin-top: 16px;
+  box-shadow: none;
+}
+.polarchart {
+  margin-top: 70px;
+}
+.bubble-chart-container {
+  margin: 50px 0px;
+}
+
+.progressStepperWrapper {
+  width: 50%;
+  margin: 100px auto;
+  text-align: center;
+  //   svg[class*='MuiSvgIcon-root'] {
+  //     width: 1.2em;
+  //     height: 1.2em;
+  //   }
+  //   svg[class*='MuiStepIcon-completed'] {
+  //     color: #7ed321;
+  //   }
+}
+// span[class*='MuiSwitch-checked'] {
+//   color: #7ed321 !important;
+// }
+// span[class*='MuiSwitch-bar'] {
+//   background-color: lighten(#7ed321, 10%) !important;
+// }
+@media only screen and (max-width: 1024px) {
+  .progressStepperWrapper {
+    width: 100%;
+  }
+}

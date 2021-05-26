@@ -1,0 +1,75 @@
+.onBoardWrapper {
+  background-color: #fff !important; }
+  .onBoardWrapper .form {
+    position: relative;
+    z-index: 100;
+    top: 75px;
+    line-height: 24px; }
+    .onBoardWrapper .form .selector__control {
+      width: 300px;
+      margin: 10px 0; }
+    .onBoardWrapper .form .text_field {
+      margin-bottom: 10px;
+      display: block; }
+      .onBoardWrapper .form .text_field input {
+        width: 300px; }
+    .onBoardWrapper .form .password_field {
+      width: 300px; }
+  .onBoardWrapper .enter_but {
+    margin-top: 20px; }
+  .onBoardWrapper .validationTrue {
+    display: inline-block;
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+    font-size: 1em;
+    color: red;
+    visibility: hidden;
+    opacity: 0; }
+  .onBoardWrapper .validationFalse {
+    display: inline-block;
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+    font-size: 1em;
+    color: red;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 600ms, visibility 600ms; }
+  .onBoardWrapper .valid__icon {
+    display: inline-block; }
+  .onBoardWrapper .valid__text {
+    display: inline; }
+  .onBoardWrapper .toggleText {
+    display: inline-block;
+    position: relative;
+    top: 11px;
+    margin-top: 20px;
+    margin-left: 10px; }
+    .onBoardWrapper .toggleText span {
+      color: #d25780; }
+  .onBoardWrapper .success {
+    position: relative;
+    top: 11px;
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 1em;
+    color: green;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 600ms, visibility 600ms; }
+
+.cloudImage {
+  position: absolute;
+  top: 20%;
+  left: 5vw;
+  width: 90vw;
+  z-index: 100; }
+
+.bottomImg {
+  position: absolute;
+  left: 0px;
+  top: 55vh;
+  z-index: -999;
+  width: 100vw;
+  z-index: 1; }

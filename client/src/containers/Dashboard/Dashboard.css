@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+.dashboard {
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px; }
+  .dashboard .search__bar {
+    width: 100%;
+    margin-top: 10px;
+    max-width: 349px; }
+  .dashboard .MuiInput-input-191 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif; }
+  .dashboard .MuiTypography-body1-236 {
+    font-size: 0.65rem; }
+  .dashboard .card_container {
+    margin-top: 35px; }
+
+.thumbnail > img, .thumbnail a > img {
+  display: block;
+  max-width: 100%;
+  height: 150px !important;
+  margin-left: auto;
+  margin-right: auto; }
+
+img {
+  margin: 0; }
+
+.modal-1-image {
+  width: 80%;
+  text-align: center; }
+
+.ImgCard {
+  position: relative; }
+
+.ImgCard:hover {
+  position: relative;
+  cursor: pointer; }
+
+.alertBox {
+  float: left;
+  margin-top: 5px;
+  width: 350px;
+  cursor: pointer;
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 600ms, visibility 600ms; }
+
+.alertBox:active {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 600ms, visibility 600ms; }
+
+.leftPanel {
+  width: 500px;
+  float: left;
+  font-size: 20px;
+  padding-bottom: 15px; }
+
+.addMember {
+  text-align: right; }
+
+.dashboard_header {
+  margin: 40px 0 10px 0; }
+
+.createnew__but {
+  height: 48px;
+  border-radius: 6px;
+  background-color: #8c92f7;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #fff;
+  margin-left: 38px; }
+  @media only screen and (max-width: 768px) {
+    .createnew__but {
+      font-size: 12px;
+      margin-left: 0; } }
+
+@media only screen and (max-width: 600px) {
+  .addMember {
+    justify-content: flex-start !important;
+    text-align: left !important; } }
+
+.enable-false {
+  opacity: 0.2; }

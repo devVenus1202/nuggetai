@@ -1,0 +1,33 @@
+footer {
+  margin-top: 50px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+  padding: 20px 0 20px 0;
+  font-size: 14px; }
+  footer .science-link {
+    color: #e688a8;
+    text-decoration: inherit;
+    padding-right: 30px; }
+  footer .assessment-count {
+    color: #555; }
+  footer .logo-footer {
+    padding-top: 30px; }
+    footer .logo-footer img {
+      width: 35px; }
+    footer .logo-footer span {
+      padding-top: 15px;
+      color: #999; }
+  @media only screen and (max-width: 599px) {
+    footer {
+      position: inherit;
+      z-index: 3;
+      padding: 0; }
+      footer .science-link {
+        padding-right: 0; }
+      footer .science-link,
+      footer .assessment-count {
+        width: 100%;
+        text-align: center; } }

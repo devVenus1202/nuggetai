@@ -1,0 +1,39 @@
+.card {
+  width: 100%;
+  min-height: 100px;
+  border-radius: 6px;
+  position: relative;
+  background: white;
+  margin-bottom: 15px; }
+  .card .info-pane {
+    display: flex;
+    justify-items: start;
+    min-height: 30px;
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 5px 10px 0px 20px; }
+    .card .info-pane button {
+      height: 20px;
+      min-width: 20px;
+      padding: 0px; }
+    .card .info-pane .menu-popper {
+      z-index: 1; }
+    .card .info-pane .pipelines-description {
+      word-break: break-word;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      -webkit-line-clamp: 2;
+      max-height: 30px;
+      cursor: pointer; }
+    .card .info-pane .pipelines-count {
+      width: 79px;
+      height: 44px;
+      font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+      font-size: 32px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #448bca;
+      flex-grow: 1; }

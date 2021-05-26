@@ -1,0 +1,55 @@
+.CopyInput {
+  position: relative;
+  width: calc(100% - 10px);
+  margin-left: auto;
+  margin-right: auto; }
+  .CopyInput > div:first-child {
+    width: calc(100% - 70px); }
+  .CopyInput input {
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important; }
+  .CopyInput .copy__button {
+    width: 35px;
+    height: 41px;
+    min-width: unset;
+    min-height: unset;
+    margin: 0 !important;
+    padding-left: 10px;
+    padding-top: 10px;
+    display: inline-block;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border: 1px solid #ccc;
+    border-left: none;
+    position: relative; }
+  .CopyInput .bootstrapRoot {
+    padding: 0; }
+  .CopyInput .bootstrapInput {
+    border-radius: 4;
+    background-color: white;
+    border: 1px solid #ced4da;
+    font-size: 16;
+    padding: 10px 12px;
+    width: calc(100% - 24px);
+    font-family: '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', '"Helvetica Neue"', 'Arial', 'sans-serif', '"Apple Color Emoji"', '"Segoe UI Emoji"', '"Segoe UI Symbol"'; }
+    .CopyInput .bootstrapInput:focus {
+      border-color: #80bdff;
+      box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
+  .CopyInput .validationTrue {
+    font-size: 1.2em;
+    color: #02aa5c !important;
+    display: inline-block;
+    visibility: hidden;
+    opacity: 0;
+    margin-left: 10px; }
+  .CopyInput .validationFalse {
+    font-size: 1.2em;
+    color: #02aa5c !important;
+    display: inline-block;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 600ms, visibility 600ms;
+    margin-left: 10px; }

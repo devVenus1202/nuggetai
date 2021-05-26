@@ -1,0 +1,13 @@
+.alert_wrapper .icon {
+  font-size: 20; }
+
+.alert_wrapper .iconVariant {
+  opacity: 0.9;
+  margin-right: 8px; }
+
+.alert_wrapper .message {
+  display: flex;
+  align-items: center; }
+
+.success {
+  background-color: #3498db; }

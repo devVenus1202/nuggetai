@@ -1,0 +1,96 @@
+.graph {
+  width: 600px;
+  min-height: 300px;
+  position: relative;
+  margin: 50px auto;
+  .line {
+    position: absolute;
+  }
+  .ac {
+    width: 200px;
+    height: 6px;
+    background: #e5e5e5;
+    -moz-transform: rotate(-60deg);
+    -webkit-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+    top: 176px;
+    left: 14px;
+  }
+  .as {
+    width: 325.3px;
+    height: 7px;
+    background: #e5e5e5;
+    -moz-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    top: 233px;
+    left: 55px;
+  }
+  .cs {
+    width: 254px;
+    height: 4px;
+    background: #e5e5e5;
+    -moz-transform: rotate(27deg);
+    -webkit-transform: rotate(27deg);
+    transform: rotate(27deg);
+    top: 150px;
+    left: 150px;
+  }
+  .cm {
+    width: 400px;
+    height: 6px;
+    background: #e5e5e5;
+    -moz-transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+    top: 68px;
+    left: 150px;
+  }
+  .ms {
+    width: 238px;
+    height: 8px;
+    background: #e5e5e5;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    left: 345px;
+    top: 120px;
+  }
+  .line {
+  }
+  .node {
+    position: absolute;
+    border: 5px solid white;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .a {
+    left: 36px;
+    top: 228px;
+    width: 66px;
+    height: 66px;
+    background: #5eb290;
+  }
+  .m {
+    left: 510px;
+    top: 12px;
+    width: 66px;
+    height: 66px;
+    background: #618bb2;
+  }
+  .s {
+    top: 163px;
+    left: 350px;
+    width: 80px;
+    height: 80px;
+    font-size: 26px;
+    background: #fbb5c0;
+  }
+  .c {
+    left: 142px;
+    top: 69px;
+    left: 138px;
+    top: 61px;
+    background: #fc8e7f;
+  }
+}

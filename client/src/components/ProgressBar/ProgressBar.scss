@@ -1,0 +1,79 @@
+.progress-bar {
+  width: 100%;
+  position: relative;
+  height: 30px;
+  border-radius: 50px;
+  background: #ebecf0;
+  margin: 2px;
+  .filler-striped {
+    background-color: #ea678f;
+    background-image: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.15) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.15) 50%,
+      rgba(255, 255, 255, 0.15) 75%,
+      transparent 75%,
+      transparent
+    );
+    background-size: 2rem 2rem;
+    height: 100%;
+    border-radius: inherit;
+    transition: width 0.2s ease-in;
+  }
+  .filler-solid {
+    background-color: #d09645;
+    height: 100%;
+    border-radius: inherit;
+    transition: width 0.2s ease-in;
+  }
+
+  .striped-label {
+    position: absolute;
+    right: 0;
+    top: 0px;
+    width: max-content;
+    height: calc(100% - 2px);
+    min-width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ea638c;
+    border-radius: 50px;
+    background: #f4f5f7;
+    color: #ea678f;
+    padding: 0 10px;
+    font-family: AvenirNext;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  .solid-label {
+    position: absolute;
+    top: 0px;
+    width: max-content;
+    min-width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    color: #5f5d5a;
+    padding: 0 4px;
+    font-size: 10px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+  }
+}
+.striped {
+  background-color: #ebecf0;
+}
+.solid {
+  background-color: #fff2d6;
+}

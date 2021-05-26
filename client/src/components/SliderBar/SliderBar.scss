@@ -1,0 +1,15 @@
+.sliderbar_root {
+  width: 45%;
+  display: inline-block;
+  margin: 10px 10px;
+
+  .sliderbar_slider > div * {
+    color: #40a9ff;
+    background-color: #40a9ff;
+  }
+
+  .sliderbar_text {
+    margin-left: 10px;
+    color: #40a9ff;
+  }
+}

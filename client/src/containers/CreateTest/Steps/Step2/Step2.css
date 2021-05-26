@@ -1,0 +1,34 @@
+.stepCard {
+  text-align: center;
+  z-index: 100; }
+  .stepCard button {
+    margin: 0 20px; }
+
+.errorMsg {
+  color: red; }
+
+.selector__control {
+  width: 200px;
+  margin: 10px 0; }
+
+.keyword__tag {
+  margin: 15px 0; }
+
+.validationTrue {
+  font-size: 1em;
+  color: red;
+  visibility: hidden;
+  opacity: 0; }
+
+.validationFalse {
+  font-size: 1em;
+  color: red;
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 600ms, visibility 600ms; }
+
+.valid__icon {
+  display: inline-block; }
+
+.valid__text {
+  display: inline; }

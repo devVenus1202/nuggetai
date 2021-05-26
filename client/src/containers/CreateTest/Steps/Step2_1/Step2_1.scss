@@ -1,0 +1,95 @@
+.stepCard {
+  text-align: center;
+  button {
+    margin: 0 20px;
+  }
+
+  .select_timer {
+    text-align: left;
+  }
+}
+
+.cardDescription {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.tabitem {
+  padding-top: 20px;
+  text-align: left;
+  width: 500px;
+  margin: auto;
+
+  select {
+    width: 100px;
+  }
+}
+
+.add__button {
+  margin-top: 10px !important;
+  margin-left: 0px !important;
+}
+
+.del__button {
+  margin-left: 3px !important;
+}
+
+.form {
+  ul {
+    width: 165px;
+    margin: 0 auto;
+  }
+}
+
+.tab__Bar {
+  width: 300px;
+
+  button {
+    margin: 0px !important;
+  }
+}
+
+.testinfo {
+  width: 100%;
+  text-align: left;
+  .test__desc {
+    width: 100%;
+  }
+}
+
+.position__selector {
+  width: 150px;
+  margin-right: 10px;
+}
+
+.card__name {
+  width: 220px;
+  margin-right: 10px;
+}
+
+.card__input {
+  margin-top: 10px;
+}
+
+.validationTrue {
+  font-size: 1em;
+  color: red;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.validationFalse {
+  font-size: 1em;
+  color: red;
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 600ms, visibility 600ms;
+}
+
+.valid__icon {
+  display: inline-block;
+}
+
+.valid__text {
+  display: inline;
+}

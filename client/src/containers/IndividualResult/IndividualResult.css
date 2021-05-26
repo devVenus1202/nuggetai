@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+.individual-result {
+  background-color: #f6f7f9; }
+  .individual-result .individual-result-wrapper {
+    margin: 0 auto; }
+    .individual-result .individual-result-wrapper .challenges-wrapper {
+      margin-top: 36px; }
+      .individual-result .individual-result-wrapper .challenges-wrapper .challenge-select {
+        min-width: 369px;
+        height: 59px;
+        background: #fff;
+        border: solid 1px transparent; }
+        .individual-result .individual-result-wrapper .challenges-wrapper .challenge-select:hover {
+          border-color: #dd628f; }
+    .individual-result .individual-result-wrapper .keywords-wrapper {
+      margin-top: 90px;
+      display: flex; }
+      .individual-result .individual-result-wrapper .keywords-wrapper .keyw-chip {
+        flex-basis: 12%;
+        flex-grow: 0;
+        margin-right: 21px;
+        background-color: #fff;
+        border: solid 1.8px #8c92f7;
+        border-radius: 19.8px;
+        height: 40px;
+        color: #777ccd;
+        font-size: 13.2px;
+        font-weight: 500;
+        line-height: 1.67;
+        letter-spacing: 0.4px;
+        text-transform: capitalize; }
+        .individual-result .individual-result-wrapper .keywords-wrapper .keyw-chip:last-child {
+          margin-right: 0; }
+    .individual-result .individual-result-wrapper .values-wrapper {
+      margin-top: 45px; }
+      .individual-result .individual-result-wrapper .values-wrapper .form-data {
+        width: 100%; }
+        .individual-result .individual-result-wrapper .values-wrapper .form-data .value-panel-wrapper {
+          margin: 10px auto;
+          max-width: 618px; }
+    .individual-result .individual-result-wrapper .chart-wrapper {
+      width: calc(100% - 20px); }
+    .individual-result .individual-result-wrapper .expansion-panels-wrapper {
+      max-width: 1130px;
+      margin: 0 auto;
+      margin-top: 52px; }
+    .individual-result .individual-result-wrapper div[class*='MuiExpansionPanel-root']:before {
+      display: none; }
+    .individual-result .individual-result-wrapper .panel-wrapper {
+      border: solid 1px #dfe1e6;
+      border-radius: 6px;
+      margin: 0 0 16px 0px; }
+      .individual-result .individual-result-wrapper .panel-wrapper .panel-summary {
+        padding: 25px 0;
+        margin: 0;
+        border-bottom: solid 1px #dfe1e6;
+        min-height: 50px; }
+        .individual-result .individual-result-wrapper .panel-wrapper .panel-summary .panel-summary-content {
+          flex-direction: column;
+          padding-left: 58px;
+          margin: 0; }
+          .individual-result .individual-result-wrapper .panel-wrapper .panel-summary .panel-summary-content .title {
+            font-size: 22px;
+            font-weight: 600;
+            letter-spacing: 2px;
+            color: #112b50;
+            display: block;
+            width: 100%;
+            line-height: normal; }
+          .individual-result .individual-result-wrapper .panel-wrapper .panel-summary .panel-summary-content .sub-title {
+            margin-top: 9px;
+            font-size: 14px;
+            display: block;
+            width: 100%;
+            line-height: 1.36;
+            color: #9b9b9b; }
+        .individual-result .individual-result-wrapper .panel-wrapper .panel-summary .panel-summary-icon {
+          top: 43px;
+          left: 2px;
+          right: inherit;
+          color: #e1628d; }
+          .individual-result .individual-result-wrapper .panel-wrapper .panel-summary .panel-summary-icon svg {
+            width: 35px;
+            height: 35px; }
+      .individual-result .individual-result-wrapper .panel-wrapper .panel-details-wrapper {
+        position: relative;
+        padding-top: 20px; }
+      .individual-result .individual-result-wrapper .panel-wrapper .rc-steps-item {
+        height: 114px; }
+      .individual-result .individual-result-wrapper .panel-wrapper .tip-content {
+        height: 120px;
+        font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: italic;
+        font-stretch: normal;
+        line-height: 1.53;
+        letter-spacing: 0.5px;
+        color: #253858; }
+      .individual-result .individual-result-wrapper .panel-wrapper .rc-steps-item-description {
+        font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: italic;
+        font-stretch: normal;
+        line-height: 1.53;
+        letter-spacing: 0.5px;
+        color: #253858;
+        padding-left: 20px; }
+  .individual-result .static-icons {
+    position: fixed;
+    top: 55vh;
+    left: 20px; }
+    .individual-result .static-icons ul {
+      padding: 0;
+      list-style: none;
+      list-style-image: none; }
+      .individual-result .static-icons ul li {
+        margin: 30px 0px;
+        transition: all 0.2s ease-in-out; }
+        .individual-result .static-icons ul li:hover {
+          transform: translateY(-4px);
+          text-decoration: none; }
+        .individual-result .static-icons ul li a {
+          color: #dd628f;
+          font-size: 1.3em; }
+  .individual-result .compare-title {
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    color: #4a4a4a; }
+  .individual-result .compare-select {
+    background: #fff;
+    border-radius: 22.5px;
+    border: solid 2px #8c92f7;
+    overflow: hidden; }
+  @media only screen and (max-width: 768px) {
+    .individual-result .individual-result-header {
+      height: 50vh;
+      padding-left: 0; }
+      .individual-result .individual-result-header h1 {
+        font-size: 34px; }
+      .individual-result .individual-result-header h5 {
+        font-size: 24px; }
+      .individual-result .individual-result-header .logo img {
+        width: 130px; }
+      .individual-result .individual-result-header .hero-top-right {
+        width: 70%;
+        max-width: 462px; }
+      .individual-result .individual-result-header .hero-top-small-right {
+        width: 35%;
+        max-width: 232px; }
+      .individual-result .individual-result-header .hero-center {
+        height: 100%;
+        position: absolute;
+        z-index: 0;
+        left: 5%; }
+      .individual-result .individual-result-header .hero-bottom-left {
+        height: 35%; } }
+  @media only screen and (max-width: 600px) {
+    .individual-result .individual-result-header {
+      height: 45vh;
+      padding-left: 17%; }
+      .individual-result .individual-result-header h1 {
+        font-size: 24px; }
+      .individual-result .individual-result-header h5 {
+        font-size: 14px; }
+      .individual-result .individual-result-header .logo {
+        top: 30px; }
+        .individual-result .individual-result-header .logo img {
+          width: 100px; }
+      .individual-result .individual-result-header .hero-top-right {
+        width: 70%;
+        max-width: 262px; }
+      .individual-result .individual-result-header .hero-top-small-right {
+        width: 35%;
+        max-width: 132px; }
+      .individual-result .individual-result-header .hero-center {
+        height: 100%;
+        position: absolute;
+        z-index: 0;
+        left: 5%; }
+      .individual-result .individual-result-header .hero-bottom-left {
+        height: 35%; }
+    .individual-result .search__bar_container {
+      padding: 20px 20px 10px 20px; } }
+
+.rc-steps {
+  height: 100%; }
+  .rc-steps .rc-steps-item {
+    height: 33%; }
+    .rc-steps .rc-steps-item .rc-steps-item-icon {
+      background-color: #8c92f7;
+      border: none;
+      width: 40px;
+      height: 40px; }
+      .rc-steps .rc-steps-item .rc-steps-item-icon .rc-steps-icon {
+        top: 8px;
+        font-size: 15px;
+        color: white; }
+    .rc-steps .rc-steps-item .rc-steps-item-tail {
+      left: 17px;
+      top: 10px; }
+      .rc-steps .rc-steps-item .rc-steps-item-tail::after {
+        width: 6px;
+        opacity: 0.25;
+        background-color: #8c92f7; }
+  .rc-steps .rc-steps-item-process .rc-steps-item-icon {
+    border-color: #0053fa; }
+
+.help-content {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: 0.5px;
+  color: #253858; }

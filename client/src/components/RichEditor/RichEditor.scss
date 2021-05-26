@@ -1,0 +1,206 @@
+$primary: #dd628f;
+$text-color: #291e53;
+
+.RichEditor__root {
+  background: white;
+  font-family: Roboto;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  color: #4f4f4f;
+  width: 100%;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.RichEditor-root {
+  .RichEditor-blockquote {
+    border-left: 5px solid #eee;
+    color: #666;
+    font-family: 'Hoefler Text', 'Georgia', serif;
+    font-style: italic;
+    margin: 16px 0;
+    padding: 10px 20px;
+  }
+  .RichEditor-blockquote:nth-child(8n + 1) {
+    border-left: 5px solid red !important;
+  }
+  .RichEditor-blockquote:nth-child(8n + 2) {
+    border-left: 5px solid green !important;
+  }
+  .RichEditor-blockquote:nth-child(8n + 3) {
+    border-left: 5px solid blue !important;
+  }
+  .RichEditor-blockquote:nth-child(8n + 4) {
+    border-left: 5px solid gray !important;
+  }
+  .RichEditor-blockquote:nth-child(8n + 5) {
+    border-left: 5px solid lightcoral !important;
+  }
+  .RichEditor-blockquote:nth-child(8n + 6) {
+    border-left: 5px solid lightblue !important;
+  }
+  .RichEditor-blockquote:nth-child(8n + 7) {
+    border-left: 5px solid lightgreen !important;
+  }
+  .RichEditor-blockquote:nth-child(8n) {
+    border-left: 5px solid black !important;
+  }
+}
+
+.RichEditor__editor {
+  cursor: text;
+  font-size: 16px;
+  margin-top: 10px;
+  .public-DraftEditorPlaceholder-root {
+    margin: 0 -15px -15px;
+    padding: 15px;
+  }
+  .public-DraftEditor-content {
+    margin: 0 -15px -15px;
+    padding: 15px 15px;
+    padding-top: 2px;
+    min-height: 50px;
+  }
+  .red-quote {
+    border-left: 5px solid l;
+  }
+  .RichEditor-blockquote {
+    border-left: 5px solid #eee;
+    color: #666;
+    font-family: 'Hoefler Text', 'Georgia', serif;
+    font-style: italic;
+    margin: 16px 0;
+    padding: 10px 20px;
+  }
+  .RichEditor-blockquote:nth-child(8n + 1) {
+    border-left: 5px solid red !important;
+  }
+  .RichEditor-blockquote:nth-child(8n + 2) {
+    border-left: 5px solid green !important;
+  }
+  .RichEditor-blockquote:nth-child(8n + 3) {
+    border-left: 5px solid blue !important;
+  }
+  .RichEditor-blockquote:nth-child(8n + 4) {
+    border-left: 5px solid gray !important;
+  }
+  .RichEditor-blockquote:nth-child(8n + 5) {
+    border-left: 5px solid lightcoral !important;
+  }
+  .RichEditor-blockquote:nth-child(8n + 6) {
+    border-left: 5px solid lightblue !important;
+  }
+  .RichEditor-blockquote:nth-child(8n + 7) {
+    border-left: 5px solid lightgreen !important;
+  }
+  .RichEditor-blockquote:nth-child(8n) {
+    border-left: 5px solid black !important;
+  }
+  .public-DraftStyleDefault-pre {
+    background-color: rgba(0, 0, 0, 0.05);
+    font-family: 'Inconsolata', 'Menlo', 'Consolas', monospace;
+    font-size: 16px;
+    padding: 20px;
+  }
+}
+
+.RichEditor__hidePlaceholder {
+  .public-DraftEditorPlaceholder-root {
+    display: none;
+  }
+}
+
+.RichEditor__controls {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 14px;
+  margin-bottom: 5px;
+  user-select: none;
+  width: 400px;
+  display: inline-block;
+  .seperator {
+    width: 10px;
+    height: 25px;
+    position: relative;
+    top: 5px;
+    border-left: 1px solid grey;
+    display: inline-block;
+  }
+}
+
+.RichEditor__styleButton {
+  color: white;
+  cursor: pointer;
+  margin-right: 15px;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  font-size: 1.3em;
+  font-weight: 100;
+  border-radius: 2px;
+  text-align: center;
+  padding-top: 2px;
+  &:hover {
+    color: $primary;
+    background-color: rgb(255, 253, 223);
+  }
+  strong,
+  i {
+    position: relative;
+    top: 5px;
+  }
+}
+
+.RichEditor__activeButton {
+  color: $primary;
+  background-color: rgb(255, 253, 223);
+}
+
+.RichEditor-root {
+  width: 100% !important;
+}
+
+.editor-before-drop-state {
+  min-height: 100px;
+  & > div {
+  }
+  .dnd-hover {
+    z-index: 999;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    display: block;
+    width: calc(100% - 40px);
+    height: calc(100% - 20px);
+    border-radius: 8px;
+    background-color: rgb(181, 191, 209);
+  }
+  .add-icon-hover {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    .dnd-icon-container {
+      display: block;
+      text-align: center;
+      margin: auto auto;
+      .dnd-icon {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        margin-top: 20px;
+      }
+      .dnd-text {
+        display: inline-block;
+        position: relative;
+        top: -15px;
+        color: rgba(37, 56, 88, 0.75);
+        font-size: 20px;
+        font-weight: bolder;
+        margin-left: 15px;
+      }
+    }
+  }
+}

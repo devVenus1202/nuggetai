@@ -1,0 +1,17 @@
+.timer {
+  text-align: right;
+  color: #555555;
+  display: inline-block; }
+  .timer span {
+    margin-left: 5px;
+    font-size: 30px;
+    top: 16px; }
+  .timer span.prefix-text {
+    position: relative;
+    top: -4px;
+    margin-right: 5px;
+    font-size: 18px; }
+  .timer p {
+    position: relative;
+    font-size: 16px;
+    top: 0px; }

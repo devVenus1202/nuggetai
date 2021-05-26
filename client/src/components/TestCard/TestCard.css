@@ -1,0 +1,131 @@
+.card__wrapper {
+  box-shadow: none;
+  border-radius: 10px; }
+  .card__wrapper .card__content {
+    padding: 26px 31px; }
+    .card__wrapper .card__content .title-wrapper {
+      position: relative; }
+      .card__wrapper .card__content .title-wrapper .icon-options {
+        position: absolute;
+        right: 0;
+        top: 5px;
+        color: #000;
+        padding: 8px;
+        margin: 0; }
+  .card__wrapper .card__remove {
+    width: 20px;
+    color: gray;
+    float: right;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 600ms, visibility 600ms; }
+  .card__wrapper:hover {
+    background-color: white; }
+    .card__wrapper:hover .card__remove {
+      visibility: visible;
+      opacity: 1;
+      transition: opacity 600ms, visibility 600ms; }
+  .card__wrapper .media {
+    height: 0;
+    padding-top: 200px; }
+  .card__wrapper .timestamp {
+    width: 100px;
+    display: inline-block;
+    color: gray; }
+  .card__wrapper .card__title {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+    width: calc(100% - 28px);
+    font-weight: 600; }
+    .card__wrapper .card__title:before {
+      display: none; }
+    .card__wrapper .card__title > div:before {
+      border: none; }
+    .card__wrapper .card__title > div:hover:before {
+      border: none !important; }
+    .card__wrapper .card__title .card__input {
+      font-size: 1.4rem;
+      width: 100%; }
+      .card__wrapper .card__title .card__input svg {
+        opacity: 0; }
+      .card__wrapper .card__title .card__input:hover {
+        color: #cd7f32; }
+        .card__wrapper .card__title .card__input:hover svg {
+          opacity: 1; }
+  .card__wrapper .card__sub__title {
+    font-size: 14px;
+    font-weight: normal;
+    color: #4a4a4a;
+    line-height: normal;
+    height: 70px; }
+  .card__wrapper .chip_wrapper {
+    margin-top: 10px;
+    min-height: 47px; }
+    .card__wrapper .chip_wrapper .chip_style {
+      text-transform: uppercase;
+      height: 24px;
+      font-size: 11px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: 0.8px;
+      margin-right: 8px;
+      background-color: #E1628D;
+      color: #fff;
+      margin-bottom: 10px; }
+  .card__wrapper.list-mode {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 148px; }
+    .card__wrapper.list-mode .media {
+      width: 153px !important; }
+    .card__wrapper.list-mode .card__content {
+      width: calc(100% - 168px);
+      padding: 17px 21px; }
+      .card__wrapper.list-mode .card__content .title-wrapper .card__title {
+        height: 27px;
+        margin-bottom: 17px; }
+        .card__wrapper.list-mode .card__content .title-wrapper .card__title .card__input {
+          font-size: 20px; }
+      .card__wrapper.list-mode .card__content .title-wrapper .card__sub__title {
+        overflow: hidden;
+        height: 3.6em; }
+        .card__wrapper.list-mode .card__content .title-wrapper .card__sub__title p {
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          -webkit-box-orient: vertical; }
+    .card__wrapper.list-mode .chip_wrapper {
+      min-height: 37px; }
+      .card__wrapper.list-mode .chip_wrapper .chip_style {
+        height: 16px;
+        font-size: 9px; }
+  @media only screen and (max-width: 600px) {
+    .card__wrapper .card__content {
+      padding: 15px 10px; }
+    .card__wrapper.list-mode .media {
+      width: 123px !important; }
+    .card__wrapper.list-mode .card__content {
+      width: calc(100% - 110px);
+      padding: 15px 10px; }
+      .card__wrapper.list-mode .card__content .title-wrapper .card__title .card__input {
+        font-size: 16px; }
+      .card__wrapper.list-mode .card__content .title-wrapper .card__sub__title {
+        font-size: 14px;
+        text-overflow: ellipsis; } }
+
+.option-item {
+  border-bottom: solid 1px rgba(151, 151, 151, 0.2);
+  height: 43px; }
+  .option-item .text-item > span {
+    font-size: 15px !important;
+    font-weight: 500;
+    color: #0a1a40; }
+  .option-item .text-icon {
+    color: #8c92f7; }
+
+.option-item:last-child {
+  border-bottom: solid 1px transparent; }

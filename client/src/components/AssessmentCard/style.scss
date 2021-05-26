@@ -1,0 +1,52 @@
+.card {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  &:hover {
+    cursor: pointer;
+  }
+  i {
+    color: green !important;
+    font-size: 2em !important;
+    position: relative;
+    left: 70px;
+    top: -190px;
+  }
+
+  .img-card {
+    height: 200px;
+    width: 100%;
+    margin: auto;
+    padding: 3px;
+    background-position: center center;
+    background-size: cover;
+  }
+}
+
+.item__selected {
+  .img-card {
+    border: 3px solid rgb(255, 231, 13);
+    padding: 0px !important;
+  }
+
+  i {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 600ms, visibility 600ms;
+  }
+}
+
+.item__nselected {
+  i {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
+.title {
+  font-weight: bold;
+}
+
+.description {
+  font-weight: light;
+}

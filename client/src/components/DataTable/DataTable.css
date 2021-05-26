@@ -1,0 +1,30 @@
+.toolbarRoot {
+  padding-right: 8px;
+  border-bottom: 1px solid #e0e0e0; }
+  .toolbarRoot .toolbar_title {
+    flex: 0 0 auto; }
+    .toolbarRoot .toolbar_title .search_input {
+      margin: 12px 0px !important; }
+  .toolbarRoot .toolbar_actions {
+    color: pink; }
+  .toolbarRoot .toolbar_spacer {
+    flex: 1 1 100%; }
+  .toolbarRoot .member_count {
+    position: relative;
+    top: -5px;
+    left: 10px;
+    font-weight: bold; }
+  .toolbarRoot .member_toolbar {
+    margin-top: 10px; }
+
+.highlight_true {
+  color: rgba(0, 0, 0, 0.54);
+  background-color: #b7dcff; }
+
+.highlight_false {
+  color: rgba(0, 0, 0, 0.87); }
+
+.tableRoot {
+  width: 100%; }
+  .tableRoot .tableWrapper {
+    overflow-x: auto; }

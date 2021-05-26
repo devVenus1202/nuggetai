@@ -1,0 +1,109 @@
+.PipeLine {
+  width: 100%; }
+  .PipeLine .pipeline_title_content {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1em;
+    display: block; }
+    .PipeLine .pipeline_title_content fieldset {
+      border-color: rgba(0, 0, 0, 0); }
+    .PipeLine .pipeline_title_content:before {
+      display: none; }
+    .PipeLine .pipeline_title_content > div:before {
+      border: none; }
+    .PipeLine .pipeline_title_content > div:hover:before {
+      border: none !important; }
+    .PipeLine .pipeline_title_content div[class*='MuiOutlinedInput-focused'] fieldset {
+      border-color: rgba(0, 0, 0, 0.23) !important; }
+    .PipeLine .pipeline_title_content div[class*='MuiOutlinedInput-root']:hover:not([class*='MuiOutlinedInput-disabled']):not([class*='MuiOutlinedInput-focused']):not([class*='MuiOutlinedInput-error'])
+[class*='MuiOutlinedInput-notchedOutline'] {
+      border-color: rgba(0, 0, 0, 0); }
+    .PipeLine .pipeline_title_content .challenge_input {
+      font-size: 1.25rem;
+      width: 500px; }
+      .PipeLine .pipeline_title_content .challenge_input fieldset {
+        border-color: rgba(0, 0, 0, 0); }
+        .PipeLine .pipeline_title_content .challenge_input fieldset:focus, .PipeLine .pipeline_title_content .challenge_input fieldset:active, .PipeLine .pipeline_title_content .challenge_input fieldset:focus-within {
+          border-color: rgba(0, 0, 0, 0.23) !important; }
+      .PipeLine .pipeline_title_content .challenge_input input {
+        margin-right: 10px; }
+      .PipeLine .pipeline_title_content .challenge_input div {
+        margin-left: 0px; }
+      .PipeLine .pipeline_title_content .challenge_input svg {
+        opacity: 0; }
+      .PipeLine .pipeline_title_content .challenge_input:hover {
+        color: #cd7f32; }
+        .PipeLine .pipeline_title_content .challenge_input:hover svg {
+          opacity: 1; }
+  .PipeLine .pipe_header {
+    display: flex;
+    justify-items: start;
+    align-items: center;
+    background: white;
+    border-radius: 8px 8px 0px 0px;
+    border-top: 8px solid #552c84;
+    height: 100px;
+    padding: 20px;
+    margin: 0; }
+    .PipeLine .pipe_header .expand_but {
+      float: left;
+      width: 24px;
+      height: 24px;
+      cursor: pointer;
+      margin-right: 10px;
+      border-radius: 50%; }
+    .PipeLine .pipe_header .pipeline_title_content {
+      line-height: 1.4em;
+      margin-top: -6px;
+      display: inline-block; }
+      .PipeLine .pipe_header .pipeline_title_content:before {
+        display: none; }
+      .PipeLine .pipe_header .pipeline_title_content > div:before {
+        border: none; }
+      .PipeLine .pipe_header .pipeline_title_content > div:hover:before {
+        border: none !important; }
+      .PipeLine .pipe_header .pipeline_title_content .pipeline_title_input {
+        font-size: 16px;
+        font-weight: bold;
+        width: 100%; }
+        .PipeLine .pipe_header .pipeline_title_content .pipeline_title_input svg {
+          opacity: 0; }
+        .PipeLine .pipe_header .pipeline_title_content .pipeline_title_input:hover {
+          color: #cd7f32; }
+          .PipeLine .pipe_header .pipeline_title_content .pipeline_title_input:hover svg {
+            opacity: 1; }
+    .PipeLine .pipe_header .benchmark {
+      margin: 0 20px 0 auto; }
+    .PipeLine .pipe_header .menu {
+      margin: 0 0 0 0; }
+      .PipeLine .pipe_header .menu .menu-popper {
+        z-index: 1; }
+      .PipeLine .pipe_header .menu .menu-button {
+        font-size: 50px;
+        padding: 0;
+        min-width: 30px;
+        height: 30px; }
+    .PipeLine .pipe_header .pipeline_title {
+      position: relative;
+      font-size: 16px;
+      font-weight: bold; }
+    .PipeLine .pipe_header .copy_but {
+      float: right;
+      font-size: 20px;
+      color: gray;
+      cursor: pointer; }
+  .PipeLine .pipe_benchmark {
+    padding: 0px; }
+    .PipeLine .pipe_benchmark .benchmark_text {
+      font-size: 10px;
+      color: gray;
+      margin-left: 37px;
+      margin-right: 5px; }
+  .PipeLine .remove_but {
+    float: right;
+    color: gray;
+    font-size: 18px;
+    cursor: pointer; }
+  .PipeLine .tableRoot {
+    box-shadow: none;
+    border-radius: 0 0 8px 8px; }

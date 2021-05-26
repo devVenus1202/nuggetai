@@ -1,0 +1,78 @@
+{
+  "name": "NuggetAI",
+  "description": "Nugget AI App for cognitive intelligence",
+  "author": "nugget.ai Team",
+  "license": "MIT",
+  "version": "0.1.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aelshayeb/nugget.git"
+  },
+  "homepage": "httpsa://app.nugget.ai",
+  "keywords": [
+    "react",
+    "webpack",
+    "express",
+    "redux",
+    "mongodb",
+    "react-scripts"
+  ],
+  "private": true,
+  "scripts": {
+    "setup-server": "npm install",
+    "setup-client": "npm install --prefix client",
+    "server": "cross-env NODE_ENV=development __DEVELOPMENT__=true concurrently \"nodemon server.js\"",
+    "dev": "cross-env NODE_ENV=development __DEVELOPMENT__=true concurrently \"nodemon server.js\" \"npm run client\"",
+    "client": "node start-client.js",
+    "start": "NODE_ENV=production node server.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "axios": "^0.18.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "connect-redis": "^3.3.3",
+    "cors": "^2.8.4",
+    "cross-env": "^5.2.0",
+    "delete": "^1.1.0",
+    "dotenv": "^6.2.0",
+    "express": "4.16.3",
+    "express-session": "^1.15.6",
+    "hogan": "^1.0.2",
+    "jsonwebtoken": "^8.3.0",
+    "lodash": "^4.17.11",
+    "moment": "^2.22.2",
+    "mongoose": "^5.3.5",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "papaparse": "^4.6.3",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "ramda": "^0.25.0",
+    "uuid": "^3.3.2",
+    "watson-developer-cloud": "^3.15.0"
+  },
+  "devDependencies": {
+    "concurrently": "3.6.1",
+    "nodemon": "^1.18.7"
+  },
+  "nodemonConfig": {
+    "watch": [
+      "server.js",
+      "server/"
+    ],
+    "ignore": [
+      "*.test.js"
+    ]
+  },
+  "jest": {
+    "verbose": true,
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/client/"
+    ]
+  }
+}

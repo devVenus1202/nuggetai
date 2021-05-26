@@ -1,0 +1,560 @@
+a,
+u {
+  text-decoration: none !important;
+}
+
+.brand {
+  position: relative;
+  top: 8px;
+  height: 25px;
+  $size: 150px;
+  width: $size !important;
+  display: inline-block;
+  background: url('../../images/logo/nugget-logo.png') no-repeat center center;
+  background-size: 80%;
+  margin: 0;
+  border-radius: 0 !important;
+
+  &:hover {
+    background-color: transparent !important;
+  }
+}
+
+.AppBar {
+  background-color: white !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid #e8e8e8;
+  position: relative !important;
+  z-index: 2 !important;
+
+  .navbarItem {
+    display: block !important;    
+  }
+
+  .nav__icons {
+    position: relative;
+    display: flex;
+    top: 5px;
+    float: right;
+    justify-content: center;
+    align-items: center;
+
+    .profile__but {
+      display: inline-block;
+      position: relative;
+      margin-left: 5px;
+      .btn-name {
+        width: 160px;
+      }
+    }
+
+    .register_but {
+      margin-top: 10px;
+    }
+
+    .lang-selection {
+      .lang-select {
+        height: 30px;
+        overflow: hidden;
+        font-size: 15px;        
+
+        img {
+          width: 25px;
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .navbarItem {
+      width: 750px;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    .navbarItem {
+      width: 970px;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .navbarItem {
+      width: 1170px;
+    }
+  }
+
+  @media screen and (max-width: 781px) {
+    .navbarItem {
+      margin-right: 20px !important;
+      margin-left: 20px !important;
+    }
+  }
+
+  @media screen and (max-width: 781px) {
+    .navbarItem {
+      margin-right: 20px !important;
+      margin-left: 20px !important;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .navbarItem {
+      margin-right: 0px !important;
+      margin-left: 0px !important;
+      padding: 10px 0;
+      width: 100%;
+    }
+  }
+
+  .navbarItem {
+    margin: 0 auto;
+  }
+}
+
+.app-hero {
+  z-index: 1;
+  position: relative;
+  .sandbox-header {
+    height: 300px;
+    background-color: #8c92f7;
+    background-image: url(../../images/sandbox/header.png);
+    background-position: center center;
+    background-repeat: no-repeat;    
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+
+    .titles-wrapper {
+      width: 100%;
+    }
+
+    h1,
+    h5 {
+      color: #fff;
+      position: relative;
+      z-index: 2;
+      max-width: 1;
+      max-width: 1170px;
+      width: 100%;
+      margin: 0 auto;
+      text-align: left;
+      padding-left: 3%;
+      
+    }
+
+    h1 {
+      font-size: 38px;
+      font-weight: 500;
+      margin-bottom: 18px;
+    }
+
+    h5 {
+      font-size: 18px;
+    }
+
+    .logo {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      z-index: 2;
+
+      img {
+        width: 130px;
+      }
+    }
+
+    @media only screen and (max-width: 1200px) {
+      h1,
+      h5 {        
+        max-width: 970px;
+        padding-left: 3%;
+      }
+    }
+
+    @media only screen and (max-width: 992px) {
+      h1, h5 {
+        max-width: 750px;       
+      }
+      
+    }
+
+
+
+    @media only screen and (max-width: 768px) {
+      height: 50vh;
+      padding-left: 0;
+
+      h1, h5 {
+        max-width: 750px;
+        padding-left: 3.5%;        
+      }
+
+      h1 {
+        font-size: 34px;
+      }
+
+      h5 {
+        font-size: 24px;        
+      }
+    }
+
+    @media only screen and (max-width: 600px) {
+      height: 45vh;
+
+      h1, h5 {
+        width: 100%;
+      }
+
+
+      h1 {
+        font-size: 24px;
+       
+      }
+
+      h5 {
+        font-size: 14px;       
+      }
+   
+    }
+  }
+
+  .science-header {
+    height: 300px;
+    background-color: #8c92f7;
+    background-image: url(../../images/sandbox/header.png);
+    background-position: center center;
+    background-repeat: no-repeat;    
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+
+    .btn-back {
+      top: 28px;
+      left: 60px;
+      position: absolute;
+      background-color: #8c92f7;
+      color: #fff;
+      margin-left: 10px;
+    }
+
+    .titles-wrapper {
+      width: 100%;
+    }
+
+    h1,
+    h5 {
+      color: #fff;
+      position: relative;
+      z-index: 2;
+      max-width: 1;
+      max-width: 1170px;
+      width: 100%;
+      margin: 0 auto;
+      text-align: left;
+      padding-left: 3%;
+      
+    }
+
+    h1 {
+      font-size: 38px;
+      font-weight: 500;
+      margin-bottom: 18px;
+    }
+
+    h5 {
+      font-size: 18px;
+    }
+
+    .logo {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      z-index: 2;
+
+      img {
+        width: 130px;
+      }
+    }
+
+    @media only screen and (max-width: 1200px) {
+      h1,
+      h5 {        
+        max-width: 970px;
+        padding-left: 3%;
+      }
+    }
+
+    @media only screen and (max-width: 992px) {
+      h1, h5 {
+        max-width: 750px;       
+      }
+      
+    }
+
+
+
+    @media only screen and (max-width: 768px) {
+      height: 50vh;
+      padding-left: 0;
+
+      h1, h5 {
+        max-width: 750px;
+        padding-left: 3.5%;        
+      }
+
+      h1 {
+        font-size: 34px;
+      }
+
+      h5 {
+        font-size: 24px;        
+      }
+    }
+
+    @media only screen and (max-width: 600px) {
+      height: 45vh;
+
+      .btn-back {
+        left: 10px;
+      }
+
+      h1, h5 {
+        width: 100%;
+      }
+
+
+      h1 {
+        font-size: 24px;
+       
+      }
+
+      h5 {
+        font-size: 14px;       
+      }
+   
+    }
+  }
+
+  .individual-result-header {
+    position: relative;
+    height: 606px;
+    padding: 70px 0;
+    background-color: #253858;
+    overflow: hidden;
+
+    .bg-fragments {
+      .half-r-frag-left {
+        position: absolute;
+        width: 30px;
+        height: 50px;
+        top: 45px;
+        left: 300px;
+        background-image: url('../../images/individual-result/icons/half-r.png');
+        background-size: 100% 100%;
+      }
+
+      .half-t-frag-left {
+        position: absolute;
+        width: 20px;
+        height: 14px;
+        top: 115px;
+        left: 215px;
+        background-image: url('../../images/individual-result/icons/half-t.png');
+        background-size: 100% 100%;
+      }
+
+      .rect-r-frag-left {
+        position: absolute;
+        width: 22px;
+        height: 22px;
+        top: 150px;
+        left: 320px;
+        background-image: url('../../images/individual-result/icons/rect-r.png');
+        background-size: 100% 100%;
+      }
+
+      .half-l-frag-left {
+        position: absolute;
+        width: 30px;
+        height: 50px;
+        top: 270px;
+        left: 210px;
+        background-image: url('../../images/individual-result/icons/half-l.png');
+        background-size: 100% 100%;
+      }
+
+      .triangle-b-frag-left {
+        position: absolute;
+        width: 37px;
+        height: 37px;
+        top: 250px;
+        left: 390px;
+        background-image: url('../../images/individual-result/icons/triangle-b.png');
+        background-size: 100% 100%;
+      }
+
+      .circle-frag-left {
+        position: absolute;
+        width: 25px;
+        height: 28px;
+        top: 300px;
+        left: 300px;
+        background-image: url('../../images/individual-result/icons/circle.png');
+        background-size: 100% 100%;
+      }
+            
+      .triangle-t-frag-right {
+        position: absolute;
+        width: 35px;
+        height: 38px;
+        top: 55px;
+        right: 300px;
+        background-image: url('../../images/individual-result/icons/triangle-t.png');
+        background-size: 100% 100%;
+      }
+
+      .rect-l-t-frag-right {
+        position: absolute;
+        width: 31px;
+        height: 34px;
+        top: 50px;
+        right: 150px;
+        background-image: url('../../images/individual-result/icons/rect-l.png');
+        background-size: 100% 100%;
+      }
+
+      .rect-l-frag-right {
+        position: absolute;
+        width: 31px;
+        height: 34px;
+        top: 50px;
+        right: 150px;
+        background-image: url('../../images/individual-result/icons/rect-l.png');
+        background-size: 100% 100%;
+      }
+
+      .circle-frag-right {
+        position: absolute;
+        width: 40px;
+        height: 45px;
+        top: 170px;
+        right: 265px;
+        background-image: url('../../images/individual-result/icons/circle.png');
+        background-size: 100% 100%;
+      }
+
+      .rect-r-frag-right {
+        position: absolute;
+        width: 22px;
+        height: 22px;
+        top: 225px;
+        right: 180px;
+        background-image: url('../../images/individual-result/icons/rect-r.png');
+        background-size: 100% 100%;
+      }
+
+      .half-b-frag-right {
+        position: absolute;
+        width: 45px;
+        height: 25px;
+        top: 290px;
+        right: 350px;
+        background-image: url('../../images/individual-result/icons/half-b.png');
+        background-size: 100% 100%;
+      }
+
+      .rect-l-frag-right {
+        position: absolute;
+        width: 31px;
+        height: 34px;
+        top: 320px;
+        right: 140px;
+        background-image: url('../../images/individual-result/icons/rect-l.png');
+        background-size: 100% 100%;
+      }
+    }
+
+    .rocket-img {
+      text-align: center;
+      margin-bottom: 50px;
+
+      img {
+        width: 280px;
+        height: 340px;
+      }
+    }
+
+    .btn-back {
+      top: 28px;
+      left: 96px;
+      position: absolute;
+      background-color: #8c92f7;
+      color: #fff;
+      margin-left: 10px;
+    }
+
+    h1,
+    h5 {
+      color: #fff;
+      position: relative;
+      z-index: 2;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 25px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 18px;
+      letter-spacing: 1.8px;
+    }
+
+    h5 {
+      font-size: 18px;
+      font-weight: 500;
+      letter-spacing: 1px;
+    }
+
+    .hero-top-right {
+      width: 30%;
+      max-width: 735px;
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      right: 0;
+    }
+
+    .hero-top-small-right {
+      width: 15%;
+      max-width: 461px;
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      right: 0;
+    }
+
+    .hero-center {
+      height: 100%;
+      position: absolute;
+      z-index: 1;
+      left: 17%;
+    }
+
+    .hero-center-b {
+      position: absolute;
+      z-index: 1;
+      width: 25%;
+      max-width: 363px;
+      bottom: 0;
+      right: 21%;
+    }
+
+    .hero-bottom-left {
+      position: absolute;
+      z-index: 1;
+      height: 55%;
+      bottom: 0;
+      left: 0;
+    }
+  }
+}

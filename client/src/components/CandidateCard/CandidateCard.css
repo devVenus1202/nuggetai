@@ -1,0 +1,45 @@
+.card__wrapper .card__setting {
+  width: 50px;
+  float: right;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 600ms, visibility 600ms; }
+
+.card__wrapper:hover {
+  background-color: #fafafa; }
+  .card__wrapper:hover .card__setting {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 600ms, visibility 600ms; }
+
+.card__wrapper .media {
+  height: 0;
+  padding-top: 200px; }
+
+.card__wrapper .company {
+  font-size: 1em;
+  font-weight: normal;
+  margin: 10px 0; }
+
+.card__wrapper .timestamp {
+  width: 100px;
+  display: inline-block; }
+
+.card__wrapper .card__title {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4em;
+  margin-bottom: 10px;
+  display: block; }
+  .card__wrapper .card__title:before {
+    display: none; }
+  .card__wrapper .card__title > div:before {
+    border: none; }
+  .card__wrapper .card__title > div:hover:before {
+    border: none; }
+  .card__wrapper .card__title .card__input {
+    font-size: 1.4rem; }
+    .card__wrapper .card__title .card__input svg {
+      opacity: 0; }
+    .card__wrapper .card__title .card__input:hover svg {
+      opacity: 1; }

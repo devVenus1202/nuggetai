@@ -1,0 +1,34 @@
+.confirmModal .paper {
+  position: absolute;
+  width: 400px;
+  background-color: white;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+  padding: 32px;
+  text-align: center; }
+
+.confirmModal .modal_content {
+  margin-top: 15px; }
+
+.confirmModal .start_but {
+  margin-right: 10px; }
+
+.confirmModal .start_but, .confirmModal .cancel_but {
+  border-radius: 20px; }
+
+.confirmModal .form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto; }
+
+.confirmModal .message {
+  padding: 10px;
+  color: red;
+  font-size: 12px; }
+
+.start-test-modal .paper {
+  background: #46415e; }
+  .start-test-modal .paper h2, .start-test-modal .paper p {
+    color: white; }

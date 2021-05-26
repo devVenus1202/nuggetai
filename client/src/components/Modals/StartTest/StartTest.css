@@ -1,0 +1,33 @@
+.startTest .paper {
+  position: absolute;
+  width: 400px;
+  background-color: white;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+  padding: 32px;
+  text-align: center; }
+
+.startTest .modal_content {
+  margin-top: 15px; }
+
+.startTest .start_but {
+  float: left; }
+
+.startTest .cancel_but {
+  float: right; }
+
+.startTest .start_but, .startTest .cancel_but {
+  border-radius: 20px; }
+
+.startTest .form {
+  width: 320px;
+  margin: 20px auto; }
+
+.startTest .message {
+  padding: 10px;
+  color: red;
+  font-size: 12px; }
+
+.start-test-modal .paper {
+  background: #46415e; }
+  .start-test-modal .paper h2, .start-test-modal .paper p {
+    color: white; }

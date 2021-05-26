@@ -1,0 +1,24 @@
+.admin-page-wrapper {
+  .user__selector-form {
+    margin: 20px 0;
+    display: block;
+    .user-selector {
+      width: 500px;
+    }
+  }
+
+  .challenge__selector-form {
+    margin: 20px 0;
+    display: block;
+    .challenge-selector {
+      width: 500px;
+    }
+  }
+  .pipeline__selector-form {
+    margin: 20px 0;
+    display: block;
+    .pipeline-selector {
+      width: 500px;
+    }
+  }
+}
